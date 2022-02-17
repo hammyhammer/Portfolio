@@ -4,8 +4,8 @@ import navcss from './Navbar.module.css';
 export default function Navbar() {
   return (
     <div className={navcss.nav}>
-      <NavLink to="/"><button>Home</button></NavLink>
-      <NavLink to="/about-me"><button>About me</button></NavLink>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about-me">About me</NavLink>
     </div>
   )
 }
