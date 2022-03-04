@@ -1,7 +1,12 @@
 .nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
   border: 2px solid blue;
   background-color: olive;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 0px 100px;
 }

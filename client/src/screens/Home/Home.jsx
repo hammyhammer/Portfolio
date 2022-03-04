@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <Layout>
       <div className={homecss.home_body}>
-        <div>
-          test tis page until it is big
+        <div className={homecss.welcome}>
+          Welcome
         </div>
 
       </div>
