@@ -1,9 +1,10 @@
 .whole {
   border: 2px solid seagreen;
+  height: 100vh;
 }
 
 .header {
-  font-size: 5vw;
+  font-size: 7vw;
   text-align: center;
   border: 2px solid red;
 }
