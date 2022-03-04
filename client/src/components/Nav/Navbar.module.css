@@ -4,9 +4,13 @@
 }
 
 .links {
+  border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: space-around;
-  margin: 0px 100px;
+  margin: 0px 30px;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: black;
 }

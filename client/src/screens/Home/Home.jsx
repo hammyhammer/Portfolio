@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <div className={homecss.home_body}>
         <div className={homecss.welcome}>
-          Welcome
+          Welcome. I am Hampton, and I am a web developer.
         </div>
 
       </div>

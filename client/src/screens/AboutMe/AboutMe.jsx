@@ -10,6 +10,8 @@ export default function AboutMe() {
         Background includes a team based and orridination between other coachs
 
 
+        Through cooperation and initiative, I am able to bring others together to complete a task. Working in team-based environments has made me adaptable to situations, and working with others. When presented with a task, my persistence and meticulous work ethnic is unparalleled.
+
       </div>
     </Layout>
   )
