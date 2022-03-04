@@ -3,3 +3,12 @@
   border: 2px solid seagreen;
 }
 
+.header {
+  font-size: 5vw;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.branding {
+  border: 2px solid cyan
+}
