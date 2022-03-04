@@ -1,8 +1,5 @@
 .App {
-  background-color: tan;
+  background: linear-gradient(rgb(143, 136, 136), rgb(88, 78, 191))
 }
 
-body {
-  background-color: tan;
-}
 

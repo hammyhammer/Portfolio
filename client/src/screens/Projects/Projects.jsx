@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
-
+import projectcss from './Projects.module.css';
 export default function Projects() {
   return (
     <Layout>
-      <div>
+      <div className={projectcss.whole}>
         <div>
           Dynamic
           <p>

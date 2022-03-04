@@ -1,9 +1,10 @@
-import Layout from "../../components/Layout/Layout"
+import Layout from "../../components/Layout/Layout";
+import aboutcss from "./AboutMe.module.css";
 
 export default function AboutMe() {
   return (
     <Layout>
-      <div>
+      <div className={aboutcss.whole}>
         About me:
         Hello! My name is Hampton, I am an aspiring software engineer.
 

@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <div className={navcss.nav}>
       <div className={navcss.links}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about-me">About me</NavLink>
-        <NavLink to='/projects'>Projects</NavLink>
+        <NavLink className={navcss.individual_links} to="/">Home</NavLink>
+        <NavLink className={navcss.individual_links} to="/about-me">About me</NavLink>
+        <NavLink className={navcss.individual_links} to='/projects'>Projects</NavLink>
       </div>
     </div>
   )
