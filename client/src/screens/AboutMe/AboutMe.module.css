@@ -1,5 +1,4 @@
 .whole {
-  height: 100vh;
   border: 2px solid seagreen;
 }
 
@@ -11,4 +10,9 @@
 
 .branding {
   border: 2px solid cyan
+}
+
+.skills {
+  font-size: 6vw;
+  border: 2px solid orange;
 }

@@ -7,6 +7,7 @@ export default function Projects() {
       <div className={projectcss.whole}>
         <div>
           Dynamic
+          <p>React app that allows users to accord their training.</p>
           <p>
             React, Ruby on Rails, JavaScript, Component Styling
           </p>
@@ -15,6 +16,7 @@ export default function Projects() {
         </div>
         <div>
           Gameterest
+          <p>A platform where users can leave reviews and favorite videogames.</p>
           <p>
             React, Mongoose, MongoDB, Express, Component Styling.
           </p>
@@ -23,10 +25,11 @@ export default function Projects() {
           <a href="https://gameterest2.herokuapp.com/">Deployed Link</a>
         </div>
         <div>
-          Oracle
+          Self-Check
+          <p>A react app where users can take a series of self-assessment health exams to gain insight to their health.</p>
           <p>Javascript, CSS, HTML</p>
-          <a href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference">Repo</a>
-          <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/">Deployed Site</a>
+          <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a>
+          <a href="https://61e6d494910579b53712d385--unruffled-hermann-51aab3.netlify.app/">Deployed Site</a>
         </div>
       </div>
     </Layout>
