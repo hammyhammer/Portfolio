@@ -1,6 +1,6 @@
 .nav {
-  border: 2px solid blue;
-  background-color: olive;
+ background-color: transparent;
+ border-bottom: 2px solid black;
 }
 
 .links {
