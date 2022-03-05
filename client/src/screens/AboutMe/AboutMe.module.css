@@ -9,6 +9,15 @@
   border: 2px solid red;
 }
 
+.image {
+  border: 8px solid yellow;
+  padding: 100px
+}
+
+.me {
+  width: 300px;
+}
+
 .branding {
   border: 2px solid cyan
 }
