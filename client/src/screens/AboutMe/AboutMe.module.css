@@ -1,6 +1,6 @@
 .whole {
   border: 2px solid seagreen;
-  height: 94vh;
+  height: auto;
 }
 
 .header {
@@ -8,6 +8,8 @@
   text-align: center;
   border: 2px solid red;
   margin: 10px 0px;
+  font-family: "mulish";
+  font-weight: bold;
 }
 
 .me {
@@ -47,4 +49,29 @@
   border: 2px solid orange;
   font-family: "Cormorant Garamond";
   font-weight: bold;
+}
+
+@media only screen and (min-width:760px) {
+  .header {
+    font-size: 5vw;
+  }
+  
+  .me {
+    width: 300px;
+    height: 350px;
+  }
+  
+  .intro_skills {
+    font-size: 3.5vw;
+  }
+  
+  .branding {
+    font-size: 3.5vw;
+  }
+  
+  .skills {
+    font-size: 3.5vw;
+  }
+
+
 }

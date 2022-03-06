@@ -1,16 +1,22 @@
 .whole {
-  height: 158vh;
+  /* height: 158vh; */
+  height: auto;
   border: 2px solid yellow
 }
 
 .header {
   text-align: center;
+  font-family: "mulish";
+  font-weight: bold;
+  font-size: 7vw;
 }
 
 .title {
   text-align: center;
-  font-size: 4vw;
+  font-size: 6vw;
   margin: 0px;
+  font-family: "mulish";
+  font-weight: bold;
 }
 
 .image {
@@ -26,6 +32,9 @@
   text-align: center;
   font-family: "Cormorant Garamond";
   font-weight: bold;
+  margin: 10px 10px;
+  font-size: 7vw;
+
 }
 
 
@@ -33,10 +42,43 @@
   text-align: center;
   font-family: "Cormorant Garamond";
   font-weight: bold;
+  margin: 10px 10px;
+  font-size: 7vw;
+
 }
 
 
 .divider {
   border: 2px dotted black;
   margin: 0px 0px 10px 0px;
+}
+
+/* Media query for ipad */
+
+@media only screen and (min-width:760px) {
+  .header {
+    font-size: 5vw;
+  }
+  
+  .title {
+    font-size: 4vw;
+  }
+  
+  .image {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .description {
+    font-size: 3.5vw;
+
+  }
+  
+  
+  .skills {
+    font-size: 3.5vw;
+
+  }
+  
+
 }
