@@ -70,3 +70,26 @@
   }
 
 }
+
+@media only screen and (min-width:1500px) {
+  .header {
+    font-size: 3.75vw;
+  }
+  
+  .me {
+    width: 30vw;
+    height: 40vh;
+  }
+  
+  .intro_skills {
+    font-size: 2vw;
+  }
+  
+  .branding {
+    font-size: 2vw;
+  }
+  
+  .skills {
+    font-size: 2vw;
+  }
+}

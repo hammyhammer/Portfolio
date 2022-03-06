@@ -4,6 +4,10 @@
   border: 2px solid yellow
 }
 
+a {
+  border: 2px solid indigo;
+}
+
 .header {
   text-align: center;
   font-family: "mulish";
@@ -80,5 +84,30 @@
 
   }
   
+}
+
+@media only screen and (min-width:1500px) {
+  .header {
+    font-size: 3.75vw;
+  }
+  
+  .title {
+    font-size: 3vw;
+  }
+  
+  .image {
+    width: 50vw;
+    height: 40vh;
+  }
+  
+  .description {
+    font-size: 2vw;
+
+  }
+  
+
+  .skills {
+    font-size: 2vw;
+  }
 
 }
