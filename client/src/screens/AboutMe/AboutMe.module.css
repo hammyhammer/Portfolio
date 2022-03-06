@@ -1,28 +1,44 @@
 .whole {
   border: 2px solid seagreen;
-  height: 100vh;
+  height: 90vh;
 }
 
 .header {
   font-size: 7vw;
   text-align: center;
   border: 2px solid red;
+  margin: 10px 0px;
 }
 
-.image {
-  border: 8px solid yellow;
-  padding: 100px
+.me {
+  border: 2px solid yellow;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .me {
   width: 300px;
 }
 
+.intro_skills {
+  font-size: 4vw;
+  margin: 10px 0px;
+}
+
 .branding {
-  border: 2px solid cyan
+  border: 2px solid cyan;
+  margin: 10px 10px;
+  font-size: 4vw;
+  text-align: center;
 }
 
 .skills {
-  font-size: 6vw;
+  margin: 10px 10px;
+  font-size: 4vw;
+  text-align: center;
   border: 2px solid orange;
 }

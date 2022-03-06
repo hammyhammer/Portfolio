@@ -1,5 +1,5 @@
 .whole {
-  height: 150vh;
+  height: 158vh;
   border: 2px solid yellow
 }
 
@@ -28,4 +28,9 @@
 
 .description {
   text-align: center;
+}
+
+.divider {
+  border: 2px dotted black;
+  margin: 0px 0px 10px 0px;
 }

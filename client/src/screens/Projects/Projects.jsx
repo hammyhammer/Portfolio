@@ -18,6 +18,7 @@ export default function Projects() {
         <p className={projectcss.skills}>
           React.js | Ruby on Rails | JavaScript | Component Styling
         </p>
+        <div className={projectcss.divider}></div>
       </div>
 
       <div>
@@ -29,6 +30,8 @@ export default function Projects() {
         <p className={projectcss.skills}>
           Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
         </p>
+        <div className={projectcss.divider}></div>
+
         {/* <a href="https://github.com/Jacobdye99/Gameterest_BackEnd">Backend Repo</a>
         <a href="https://github.com/Elvedin123/gametrest-frontend">Frontend Repo</a> */}
 

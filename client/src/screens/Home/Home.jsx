@@ -11,7 +11,7 @@ export default function Home() {
           Hampton Jacobs. {<br />} Software Developer.
         </div>
         <Projects />
-        {/* <AboutMe /> */}
+        <AboutMe />
 
         {/* <div className={homecss.work}>
           <button>My Work</button>
