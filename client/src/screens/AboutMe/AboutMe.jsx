@@ -3,7 +3,7 @@ import aboutcss from "./AboutMe.module.css";
 import me from '../../assets/images/me.png'
 export default function AboutMe() {
   return (
-    <div className={aboutcss.whole}>
+    <div className={aboutcss.whole} id="about-me">
       <div className={aboutcss.header}>About me:</div>
       <img className={aboutcss.me} src={me} alt="Hampton" />
       <div className={aboutcss.branding}>

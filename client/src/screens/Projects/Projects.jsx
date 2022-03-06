@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../components/Layout/Layout'
 import projectcss from './Projects.module.css';
 import dynamic from '../../assets/images/dynamic.png';
 import gameterest from '../../assets/images/gameterest.png';
@@ -7,7 +6,7 @@ import self_check from '../../assets/images/bmi.png';
 
 export default function Projects() {
   return (
-    <div className={projectcss.whole}>
+    <div className={projectcss.whole} id="projects">
       <h2 className={projectcss.header}>My Projects</h2>
       <div>
         <h5 className={projectcss.title}>Dynamic</h5>

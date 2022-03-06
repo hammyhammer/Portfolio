@@ -22,13 +22,19 @@
   height: 200px;
 }
 
-.skills {
-  text-align: center;
-}
-
 .description {
   text-align: center;
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
 }
+
+
+.skills {
+  text-align: center;
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
+}
+
 
 .divider {
   border: 2px dotted black;

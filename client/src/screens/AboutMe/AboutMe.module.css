@@ -1,6 +1,6 @@
 .whole {
   border: 2px solid seagreen;
-  height: 90vh;
+  height: 94vh;
 }
 
 .header {
@@ -25,20 +25,26 @@
 }
 
 .intro_skills {
-  font-size: 4vw;
+  font-size: 4.5vw;
   margin: 10px 0px;
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
 }
 
 .branding {
   border: 2px solid cyan;
   margin: 10px 10px;
-  font-size: 4vw;
+  font-size: 4.5vw;
   text-align: center;
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
 }
 
 .skills {
-  margin: 10px 10px;
-  font-size: 4vw;
+  margin: 10px 5px;
+  font-size: 5vw;
   text-align: center;
   border: 2px solid orange;
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
 }
