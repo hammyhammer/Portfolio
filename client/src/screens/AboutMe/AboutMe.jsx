@@ -1,5 +1,7 @@
 import aboutcss from "./AboutMe.module.css";
 import me from '../../assets/images/me.png'
+import resume from '../../assets/resume/jacobs-resume.pdf'
+
 export default function AboutMe() {
   return (
     <div className={aboutcss.whole} id="about-me">
@@ -15,7 +17,16 @@ export default function AboutMe() {
       <div className={aboutcss.skills}>
         JavaScript | Ruby | CSS | HTML | SQL | React.js | Rails | MongoDB | Mongoose | Express | Node.js | Styled-Components CSS | Heroku | Netlify | Github
       </div>
-      {/* <img src="https://imgur.com/EU2avVs" alt="" /> */}
+      <div>
+        <a
+          className={aboutcss.resume}
+          href={resume}
+          target="blank"
+        >
+          My resume
+        </a>
+      </div>
+
     </div >
   )
 }

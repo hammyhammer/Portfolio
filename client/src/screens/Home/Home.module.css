@@ -7,11 +7,10 @@
 .welcome {
   font-size: 7vw;
   margin: 20px 0px 10px 0px;
-  /* border: 2px solid white; */
   text-align: center;
   font-family: "Fredericka the Great";
   font-weight: bold;
-  color: white,
+  color: white;
 }
 
  .traits {

@@ -53,6 +53,16 @@
   font-weight: bold;
 }
 
+.resume {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 0px 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "BhuTuka Expanded One";
+  font-weight: bold;
+}
+
 @media only screen and (min-width:760px) {
   .header {
     font-size: 5vw;
