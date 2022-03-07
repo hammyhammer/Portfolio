@@ -1,23 +1,33 @@
 .home_body {
   width: auto;
-  height: 350vh;
+  height: 200vh;
+  
 }
 
 .welcome {
   font-size: 7vw;
-  margin: 40px 0px;
-  padding: 30px 0px; 
-  border: 2px solid white;
+  margin: 20px 0px 10px 0px;
+  /* border: 2px solid white; */
   text-align: center;
-  font-family: "Cormorant Garamond";
+  font-family: "Fredericka the Great";
   font-weight: bold;
+  color: white;
+ }
+
+ .traits {
+   text-align: center;
+   margin: 2px 0px;
+   font-size: 3vw;
+   font-family: "goblin one";
+   font-weight: bold;
+   color: white;
  }
 
 .work {
   text-align: center;
   margin: 40px 0px;
   padding: 30px 0px; 
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .work>button {

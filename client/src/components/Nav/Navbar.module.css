@@ -12,11 +12,12 @@
 }
 
 .individual_links {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 5vw;
-  font-family: "mulish";
+  font-family: "Fredericka the Great";
   font-weight: bold;
+
 }
 
 @media only screen and (min-width:760px) {
@@ -28,6 +29,6 @@
 @media only screen and (min-width:1500px) {
   .individual_links {
     font-size: 2vw;
-    margin: 0px 100px;
+    margin: 0px 0px;
   }
 }

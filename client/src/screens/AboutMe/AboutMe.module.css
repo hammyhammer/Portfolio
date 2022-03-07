@@ -1,49 +1,53 @@
 .whole {
-  border: 2px solid seagreen;
+  /* border: 2px solid seagreen; */
   height: auto;
+  color: white;
 }
 
 .header {
-  font-size: 7vw;
-  text-align: center;
-  border: 2px solid red;
-  margin: 10px 0px;
-  font-family: "mulish";
-  font-weight: bold;
+  font-size: 4.75vw;
+  text-align: left;
+  /* border: 2px solid red; */
+  margin: 0px 95px;
+  font-family: "Limelight";
+  /* font-weight: bold; */
 }
 
 .me {
-  border: 2px solid yellow;
-  width: 73vw;
-  height: 41vh;
+  /* border: 2px solid yellow; */
+  width: 50vw;
+  height: 30vh;
   display: block;
   margin: 10px 0px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.intro_skills {
-  font-size: 4.5vw;
-  margin: 10px 0px;
-  font-family: "Cormorant Garamond";
-  font-weight: bold;
+  filter: grayscale(100%);
+  padding: 5px;
+  border: 2px solid white;
 }
 
 .branding {
-  border: 2px solid cyan;
-  margin: 10px 10px;
-  font-size: 4.5vw;
+  /* border: 2px solid cyan; */
+  margin: 10px 30px;
+  font-size: 4vw;
   text-align: center;
-  font-family: "Cormorant Garamond";
+  font-family: "BhuTuka Expanded One";
+  font-weight: bold;
+}
+
+.intro_skills {
+  font-size: 4vw;
+  margin: 15px 10px;
+  font-family: "BhuTuka Expanded One";
   font-weight: bold;
 }
 
 .skills {
-  margin: 10px 5px;
-  font-size: 5vw;
+  margin: 10px 30px;
+  font-size: 4vw;
   text-align: center;
-  border: 2px solid orange;
-  font-family: "Cormorant Garamond";
+  /* border: 2px solid orange; */
+  font-family: "BhuTuka Expanded One";
   font-weight: bold;
 }
 

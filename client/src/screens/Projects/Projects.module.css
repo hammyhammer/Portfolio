@@ -1,60 +1,92 @@
 .whole {
   /* height: 158vh; */
   height: auto;
-  border: 2px solid yellow
-}
-
-a {
-  border: 2px solid indigo;
+  color: white;
+  /* border: 2px solid yellow */
 }
 
 .header {
   text-align: center;
-  font-family: "mulish";
+  font-family: "Limelight";
   font-weight: bold;
-  font-size: 7vw;
+  font-size: 5vw;
+  margin: 30px 0px 5px 0px;
 }
 
 .title {
   text-align: center;
-  font-size: 6vw;
+  font-size: 5.25vw;
   margin: 0px;
-  font-family: "mulish";
+  font-family: "Bungee Shade";
   font-weight: bold;
+  /* font-family: "mulish";
+  font-weight: bold; */
 }
-
-.image {
+/* Below is for the images of screenshots of apps */
+/* .image {
   width: 75vw;
-  border: 2px solid pink;
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 200px;
+  filter: grayscale(50%);
+  border: 2px white solid;
+} */
+
+.icon_dynamic {
+  vertical-align: middle;
+  color: purple;
+  text-align: center;
+  border: 2px solid white;
+  margin: 0px 100px;
+}
+
+.icon_gameterest {
+  vertical-align: middle;
+  color: rgb(255, 0, 128);
+  text-align: center;
+  border: 2px solid white;
+  margin: 0px 100px;
+}
+
+.icon_selfcheck {
+  vertical-align: middle;
+  color: rgb(255, 255, 0);
+  text-align: center;
+  border: 2px solid white;
+  margin: 0px 100px;
+}
+
+.link_space {
 }
 
 .description {
   text-align: center;
-  font-family: "Cormorant Garamond";
+  font-family: "BhuTuka Expanded One";
   font-weight: bold;
+  /* font-family: "Cormorant Garamond"; */
+  /* font-weight: bold; */
   margin: 10px 10px;
-  font-size: 5vw;
+  font-size: 3vw;
 
 }
 
 
 .skills {
   text-align: center;
-  font-family: "Cormorant Garamond";
-  font-weight: bold;
+  /* font-family: "goblin one"; */
+  font-family: "BhuTuka Expanded One";
+  /* font-family: "Cormorant Garamond"; */
+  font-weight: 900;
   margin: 10px 10px;
-  font-size: 5vw;
+  font-size: 3vw;
 
 }
 
 
 .divider {
-  border: 2px dotted black;
-  margin: 0px 0px 10px 0px;
+  border: 2px dotted white;
+  margin: 0px 40px 10px 40px;
 }
 
 /* Media query for ipad */
@@ -99,6 +131,7 @@ a {
     width: 50vw;
     height: 40vh;
   }
+
   
   .description {
     font-size: 2vw;
