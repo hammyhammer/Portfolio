@@ -10,15 +10,38 @@
   font-family: "Limelight";
   font-weight: bold;
   font-size: 5vw;
-  margin: 30px 0px 5px 0px;
+  margin: 10px 0px 5px 0px;
 }
 
-.title {
+.title_dynamic {
   text-align: center;
   font-size: 5.25vw;
   margin: 0px;
   font-family: "Bungee Shade";
   font-weight: bold;
+  color: rgb(206, 24, 206);
+  /* font-family: "mulish";
+  font-weight: bold; */
+}
+
+.title_gameterest {
+  text-align: center;
+  font-size: 5.25vw;
+  margin: 0px;
+  font-family: "Bungee Shade";
+  font-weight: bold;
+  color: rgb(255, 0, 128)
+  /* font-family: "mulish";
+  font-weight: bold; */
+}
+
+.title_selfcheck {
+  text-align: center;
+  font-size: 5.25vw;
+  margin: 0px;
+  font-family: "Bungee Shade";
+  font-weight: bold;
+  color: yellow;
   /* font-family: "mulish";
   font-weight: bold; */
 }
@@ -35,7 +58,7 @@
 
 .icon_dynamic {
   vertical-align: middle;
-  color: purple;
+  color: rgb(206, 24, 206);
   text-align: center;
   border: 2px solid white;
   margin: 0px 100px;

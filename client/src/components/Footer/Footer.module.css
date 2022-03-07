@@ -4,15 +4,15 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end;
-  border: 2px solid black;
+  border-top: 2px solid white;
   background: transparent;
 }
 
 .footer a {
   display: flex;
   justify-content: flex-end;
-  width: 6%;
-  height: 4%;
+  width: 10%;
+  height: 10%;
 }
 
 .link {
@@ -20,11 +20,14 @@
   justify-content: flex-end;
   padding: 10px 30px;
   width: 60%;
-  height: 60%;
+  height: 50%;
+  color: rgb(16, 219, 233);
+  border: 2px solid transparent;
 }
 
 .git {
   padding: 10px 30px;
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
+  color: yellow
 }

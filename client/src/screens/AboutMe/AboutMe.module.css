@@ -8,9 +8,10 @@
   font-size: 4.75vw;
   text-align: left;
   /* border: 2px solid red; */
-  margin: 0px 95px;
+  margin: 13px 95px 0px 95px;
   font-family: "Limelight";
   /* font-weight: bold; */
+
 }
 
 .me {
@@ -29,22 +30,23 @@
 .branding {
   /* border: 2px solid cyan; */
   margin: 10px 30px;
-  font-size: 4vw;
+  font-size: 3.75vw;
   text-align: center;
   font-family: "BhuTuka Expanded One";
-  font-weight: bold;
+  font-weight: 600;
+  color: white;
 }
 
 .intro_skills {
   font-size: 4vw;
-  margin: 15px 10px;
+  margin: 10px 10px;
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
 }
 
 .skills {
   margin: 10px 30px;
-  font-size: 4vw;
+  font-size: 3.5vw;
   text-align: center;
   /* border: 2px solid orange; */
   font-family: "BhuTuka Expanded One";
