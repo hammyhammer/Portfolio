@@ -3,7 +3,7 @@ import homecss from './Home.module.css'
 import Layout from '../../components/Layout/Layout'
 import AboutMe from '../AboutMe/AboutMe.jsx'
 import Projects from '../Projects/Projects'
-import Icons from '../../components/Icons/Icons'
+
 export default function Home() {
   return (
     <Layout>
@@ -16,13 +16,6 @@ export default function Home() {
         <Projects />
         <AboutMe />
 
-        {/* <div className={homecss.work}>
-          <button>My Work</button>
-        </div>
-        <div className={homecss.me}>
-          <button>Get To Know Me</button>
-        </div> */}
-        {/* <Icons /> */}
       </div>
 
     </Layout>
