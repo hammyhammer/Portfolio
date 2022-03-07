@@ -56,7 +56,7 @@
 .resume {
   display: flex;
   justify-content: center;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 20px 0px;
   color: white;
   text-decoration: none;
   font-family: "BhuTuka Expanded One";
@@ -65,7 +65,7 @@
 
 @media only screen and (min-width:760px) {
   .header {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   
   .me {
@@ -74,22 +74,28 @@
   }
   
   .intro_skills {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   
   .branding {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   
   .skills {
-    font-size: 3.5vw;
+    font-size: 3vw;
+  }
+
+  .resume {
+    font-size: 3vw;
   }
 
 }
 
 @media only screen and (min-width:1500px) {
   .header {
-    font-size: 3.75vw;
+    font-size: 2.5vw;
+    margin: 13px 300px 0px 450px;
+
   }
   
   .me {
@@ -98,14 +104,22 @@
   }
   
   .intro_skills {
-    font-size: 2vw;
+    margin: 10px 250px;
+    font-size: 1.5vw;
   }
   
   .branding {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin: 10px 300px;
+
   }
   
   .skills {
+    font-size: 1.5vw;
+    margin: 10px 300px;
+  }
+
+  .resume {
     font-size: 2vw;
   }
 }

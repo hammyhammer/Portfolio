@@ -1,8 +1,6 @@
 .whole {
-  /* height: 158vh; */
   height: auto;
   color: white;
-  /* border: 2px solid yellow */
 }
 
 .header {
@@ -20,8 +18,6 @@
   font-family: "Bungee Shade";
   font-weight: bold;
   color: rgb(206, 24, 206);
-  /* font-family: "mulish";
-  font-weight: bold; */
 }
 
 .title_gameterest {
@@ -31,8 +27,6 @@
   font-family: "Bungee Shade";
   font-weight: bold;
   color: rgb(255, 0, 128)
-  /* font-family: "mulish";
-  font-weight: bold; */
 }
 
 .title_selfcheck {
@@ -42,10 +36,18 @@
   font-family: "Bungee Shade";
   font-weight: bold;
   color: yellow;
-  /* font-family: "mulish";
-  font-weight: bold; */
 }
-/* Below is for the images of screenshots of apps */
+
+.title_oracle {
+  text-align: center;
+  font-size: 5.25vw;
+  margin: 0px;
+  font-family: "Bungee Shade";
+  font-weight: bold;
+  color: rgb(29, 198, 210);
+
+}
+  /* Below is for the images of screenshots of apps */
 /* .image {
   width: 75vw;
   display: block;
@@ -75,6 +77,14 @@
 .icon_selfcheck {
   vertical-align: middle;
   color: rgb(255, 255, 0);
+  text-align: center;
+  border: 2px solid white;
+  margin: 0px 100px;
+}
+
+.icon_oracle {
+  vertical-align: middle;
+  color: rgb(29, 198, 210);
   text-align: center;
   border: 2px solid white;
   margin: 0px 100px;
@@ -119,23 +129,50 @@
     font-size: 5vw;
   }
   
-  .title {
+  .title_dynamic {
     font-size: 4vw;
   }
+
+  .title_gameterest {
+    font-size: 4vw;
+  }
+
+  .title_selfcheck {
+    font-size: 4vw;
+  }
+
+  .title_oracle {
+    font-size: 4vw;
+  }
+
+  .icon_dynamic {
+    margin: 0px 300px;
+  }
   
+  .icon_gameterest {
+    margin: 0px 300px;
+  }
+  
+  .icon_selfcheck {
+    margin: 0px 300px;
+  }
+  
+  .icon_oracle {
+    margin: 0px 300px;
+  }
   .image {
     width: 80vw;
     height: 40vh;
   }
   
   .description {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
 
   }
   
   
   .skills {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
 
   }
   
@@ -146,8 +183,36 @@
     font-size: 3.75vw;
   }
   
-  .title {
-    font-size: 3vw;
+  .title_dynamic {
+    font-size: 2.5vw;
+  }
+
+  .title_gameterest {
+    font-size: 2.5vw;
+  }
+
+  .title_selfcheck {
+    font-size: 2.5vw;
+  }
+
+  .title_oracle {
+    font-size: 2.5vw;
+  }
+
+  .icon_dynamic {
+    margin: 0px 900px;
+  }
+  
+  .icon_gameterest {
+    margin: 0px 900px;
+  }
+  
+  .icon_selfcheck {
+    margin: 0px 900px;
+  }
+  
+  .icon_oracle {
+    margin: 0px 900px;
   }
   
   .image {
@@ -157,13 +222,13 @@
 
   
   .description {
-    font-size: 2vw;
+    font-size: 1.5vw;
 
   }
   
 
   .skills {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
 }

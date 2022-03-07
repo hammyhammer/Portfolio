@@ -22,6 +22,7 @@ export default function AboutMe() {
           className={aboutcss.resume}
           href={resume}
           target="blank"
+          id="resume"
         >
           My resume
         </a>

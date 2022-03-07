@@ -6,6 +6,8 @@ import self_check from '../../assets/images/bmi.png';
 import { IoIosFitness } from 'react-icons/io'
 import { BsController } from "react-icons/bs";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { GiBoltSpellCast } from "react-icons/gi";
+
 
 
 export default function Projects() {
@@ -48,6 +50,20 @@ export default function Projects() {
         <p className={projectcss.description}>Users can take a series of self-assessment health exams to gain insight to their health.</p>
         <a href="https://61e6d494910579b53712d385--unruffled-hermann-51aab3.netlify.app/" target="_blank">
           <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
+          {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
+        </a>
+        <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>
+        {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
+        <div className={projectcss.divider}></div>
+
+      </div>
+
+      <div>
+        <h5 className={projectcss.title_oracle}>Oracle</h5>
+
+        <p className={projectcss.description}>DND euthanists can quickly get information on spells and cantrips to make ccombat go more smoothly.</p>
+        <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank">
+          <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
           {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
         </a>
         <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>

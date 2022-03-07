@@ -1,6 +1,6 @@
 .home_body {
   width: auto;
-  height: 200vh;
+  height: auto;
   
 }
 
@@ -67,7 +67,7 @@
 
   .home_body {
     width: auto;
-    height: 220vh;
+    height: auto;
     
   }
   .welcome {
@@ -78,10 +78,15 @@
 @media only screen and (min-width:1500px) {
   .home_body {
     width: auto;
-    height: 250vh;
+    height: auto;
   }
   
   .welcome {
-    font-size: 4.5vw;
+    font-size: 3vw;
    }
+
+   .traits {
+    font-size: 2vw;
+
+  }
 }
