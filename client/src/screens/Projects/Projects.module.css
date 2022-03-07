@@ -58,11 +58,20 @@
   border: 2px white solid;
 } */
 
+/* .link_space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+} */
+
 .icon_dynamic {
   vertical-align: middle;
   color: rgb(206, 24, 206);
   text-align: center;
   border: 2px solid white;
+   /* left: 40%; */
+  /* width: 200%;  */
   margin: 0px 100px;
 }
 
@@ -200,19 +209,19 @@
   }
 
   .icon_dynamic {
-    margin: 0px 900px;
+    margin: 0px 600px;
   }
   
   .icon_gameterest {
-    margin: 0px 900px;
+    margin: 0px 600px;
   }
   
   .icon_selfcheck {
-    margin: 0px 900px;
+    margin: 0px 600px;
   }
   
   .icon_oracle {
-    margin: 0px 900px;
+    margin: 0px 600px;
   }
   
   .image {
@@ -231,4 +240,22 @@
     font-size: 1.5vw;
   }
 
+}
+
+@media only screen and (min-width:1800px) {
+  .icon_dynamic {
+    margin: 0px 750px;
+  }
+  
+  .icon_gameterest {
+    margin: 0px 750px;
+  }
+  
+  .icon_selfcheck {
+    margin: 0px 750px;
+  }
+  
+  .icon_oracle {
+    margin: 0px 750px;
+  }
 }
