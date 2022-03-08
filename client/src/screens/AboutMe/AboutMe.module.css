@@ -30,7 +30,7 @@
 .branding {
   /* border: 2px solid cyan; */
   margin: 10px 30px;
-  font-size: 3.75vw;
+  font-size: 3vw;
   text-align: center;
   font-family: "BhuTuka Expanded One";
   font-weight: 600;
@@ -38,7 +38,7 @@
 }
 
 .intro_skills {
-  font-size: 4vw;
+  font-size: 2.5vw;
   margin: 10px 10px;
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
@@ -46,7 +46,7 @@
 
 .skills {
   margin: 10px 30px;
-  font-size: 3.5vw;
+  font-size: 3vw;
   text-align: center;
   /* border: 2px solid orange; */
   font-family: "BhuTuka Expanded One";
@@ -61,11 +61,12 @@
   text-decoration: none;
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
+  font-size: 4vw;
 }
 
 @media only screen and (min-width:760px) {
   .header {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   
   .me {
@@ -74,27 +75,34 @@
   }
   
   .intro_skills {
-    font-size: 3vw;
+    font-size: 2.25vw;
   }
   
   .branding {
-    font-size: 3vw;
+    font-size: 2.25vw;
   }
   
   .skills {
-    font-size: 3vw;
+    font-size: 2.25vw;
   }
 
   .resume {
     font-size: 3vw;
   }
 
+  .me {
+    /* border: 2px solid yellow; */
+    width: 40vw;
+    height: 40vh;
+
+  }
+
 }
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1200px) {
   .header {
     font-size: 2.5vw;
-    margin: 13px 300px 0px 450px;
+    margin: 13px 300px 0px 300px;
 
   }
   
@@ -116,6 +124,39 @@
   
   .skills {
     font-size: 1.5vw;
+    margin: 10px 300px;
+  }
+
+  .resume {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width:1500px) {
+  .header {
+    font-size: 2vw;
+    margin: 13px 300px 0px 350px;
+
+  }
+  
+  .me {
+    width: 20vw;
+    height: 30vh;
+  }
+  
+  .intro_skills {
+    margin: 10px 250px;
+    font-size: 1vw;
+  }
+  
+  .branding {
+    font-size: 1.25vw;
+    margin: 10px 300px;
+
+  }
+  
+  .skills {
+    font-size: 1.25vw;
     margin: 10px 300px;
   }
 
