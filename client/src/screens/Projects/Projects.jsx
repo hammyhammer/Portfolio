@@ -69,7 +69,7 @@ export default function Projects() {
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>
+        <p className={projectcss.skills}>Javascript | CSS | HTML</p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
 
