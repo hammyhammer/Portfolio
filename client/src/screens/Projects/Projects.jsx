@@ -29,9 +29,11 @@ export default function Projects() {
       <div>
         <h5 className={projectcss.title_gameterest}>Gameterest</h5>
         <p className={projectcss.description}>A platform where users can leave reviews and favorite videogames.</p>
-        <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer">
-          <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
-        </a>
+        <div className={projectcss.link_space}>
+          <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
+            <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
+          </a>
+        </div>
         <p className={projectcss.skills}>
           Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
         </p>
@@ -45,10 +47,12 @@ export default function Projects() {
         <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
 
         <p className={projectcss.description}>Users can take a series of self-assessment health exams to gain insight to their health.</p>
-        <a href="https://61e6d494910579b53712d385--unruffled-hermann-51aab3.netlify.app/" target="_blank" rel="noreferrer">
-          <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
-          {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
-        </a>
+        <div className={projectcss.link_space}>
+          <a href="https://61e6d494910579b53712d385--unruffled-hermann-51aab3.netlify.app/" target="_blank" rel="noreferrer">
+            <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
+            {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
+          </a>
+        </div>
         <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
@@ -59,10 +63,12 @@ export default function Projects() {
         <h5 className={projectcss.title_oracle}>Oracle</h5>
 
         <p className={projectcss.description}>DND euthanists can quickly get information on spells and cantrips to make ccombat go more smoothly.</p>
-        <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
-          <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
-          {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
-        </a>
+        <div className={projectcss.link_space}>
+          <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
+            <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
+            {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
+          </a>
+        </div>
         <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>

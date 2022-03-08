@@ -87,6 +87,25 @@
 
    .traits {
     font-size: 2vw;
+    margin: 0px 0px;
+    border: 2px solid pink;
+  }
+
+  .driven {
+    border: 2px solid yellow;
+    
+  }
+ 
+  .creative {
+    border: 2px solid yellow;
+  }
+ 
+  .software {
+    border: 2px solid yellow;
+  }
+
+  .bullet {
+    border: 2px solid yellow;
 
   }
 }

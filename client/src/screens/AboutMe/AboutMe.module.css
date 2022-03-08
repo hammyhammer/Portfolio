@@ -22,7 +22,7 @@
   margin: 10px 0px;
   margin-left: auto;
   margin-right: auto;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   padding: 5px;
   border: 2px solid white;
 }

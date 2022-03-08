@@ -58,49 +58,29 @@
   border: 2px white solid;
 } */
 
-/* .link_space {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-} */
+.link_space {
+  border: 2px solid white;
+  margin: 0px 100px;
+  text-align: center;
+}
 
 .icon_dynamic {
-  vertical-align: middle;
   color: rgb(206, 24, 206);
-  text-align: center;
-  border: 2px solid white;
-   /* left: 40%; */
-  /* width: 200%;  */
-  margin: 0px 100px;
 }
 
 .icon_gameterest {
-  vertical-align: middle;
   color: rgb(255, 0, 128);
-  text-align: center;
-  border: 2px solid white;
-  margin: 0px 100px;
 }
 
 .icon_selfcheck {
-  vertical-align: middle;
   color: rgb(255, 255, 0);
-  text-align: center;
-  border: 2px solid white;
-  margin: 0px 100px;
 }
 
 .icon_oracle {
-  vertical-align: middle;
   color: rgb(29, 198, 210);
-  text-align: center;
-  border: 2px solid white;
-  margin: 0px 100px;
 }
 
-.link_space {
-}
+
 
 .description {
   text-align: center;
@@ -189,7 +169,7 @@
 
 @media only screen and (min-width:1500px) {
   .header {
-    font-size: 3.75vw;
+    font-size: 3vw;
   }
   
   .title_dynamic {

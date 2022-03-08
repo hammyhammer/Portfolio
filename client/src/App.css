@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Bungee+Shade&family=Cormorant+Garamond:wght@300&family=Fredericka+the+Great&family=Goblin+One&family=Limelight&family=Londrina+Outline&family=Mulish:wght@200&family=Sansita+Swashed&display=swap');
 
 .App {
-  background-image: url("https://media.gettyimages.com/photos/green-chalkboard-texture-as-background-picture-id843364432?b=1&k=20&m=843364432&s=170667a&w=0&h=PVuU18Mcq3dvHu4jia9sbYWLLjZaBfKXaOG_NZAGoEM=");
-  background-size: cover;
+  /* background-image: url("https://media.gettyimages.com/photos/green-chalkboard-texture-as-background-picture-id843364432?b=1&k=20&m=843364432&s=170667a&w=0&h=PVuU18Mcq3dvHu4jia9sbYWLLjZaBfKXaOG_NZAGoEM="); */
+  /* background-size: cover; */
+  background-color: black;
   /* background-position: 25% 75%; */
   /* background-repeat: none; */
 }
