@@ -62,7 +62,7 @@ export default function Projects() {
       <div>
         <h5 className={projectcss.title_oracle}>Oracle</h5>
 
-        <p className={projectcss.description}>DND euthanists can quickly get information on spells and cantrips to make ccombat go more smoothly.</p>
+        <p className={projectcss.description}>Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly.</p>
         <div className={projectcss.link_space}>
           <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
             <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
