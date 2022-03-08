@@ -1,6 +1,6 @@
 .nav {
  background-color: transparent;
- border-bottom: 2px solid black;
+ border-bottom: 2px solid white;
 }
 
 .links {
@@ -8,13 +8,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: space-around;
-  margin: 0px 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .individual_links {
   color: white;
   text-decoration: none;
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Fredericka the Great";
   font-weight: bold;
 
@@ -22,9 +23,17 @@
 
 @media only screen and (min-width:760px) {
   .individual_links {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
+
+@media only screen and (min-width:1200px) {
+  .individual_links {
+    font-size: 2vw;
+    margin: 0px 0px;
+  }
+}
+
 
 @media only screen and (min-width:1500px) {
   .individual_links {

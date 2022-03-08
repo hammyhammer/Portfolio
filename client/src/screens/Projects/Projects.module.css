@@ -60,8 +60,9 @@
 
 .link_space {
   border: 2px solid white;
-  margin: 0px 100px;
   text-align: center;
+  margin-left: 24%;
+  margin-right: 24%;
 }
 
 .icon_dynamic {
@@ -70,10 +71,13 @@
 
 .icon_gameterest {
   color: rgb(255, 0, 128);
+
 }
 
 .icon_selfcheck {
   color: rgb(255, 255, 0);
+  border: 2px solid pink;
+
 }
 
 .icon_oracle {
@@ -134,21 +138,11 @@
     font-size: 4vw;
   }
 
-  .icon_dynamic {
-    margin: 0px 300px;
+  .link_space {
+    margin-left: 35%;
+    margin-right: 35%;
   }
-  
-  .icon_gameterest {
-    margin: 0px 300px;
-  }
-  
-  .icon_selfcheck {
-    margin: 0px 300px;
-  }
-  
-  .icon_oracle {
-    margin: 0px 300px;
-  }
+
   .image {
     width: 80vw;
     height: 40vh;
@@ -159,7 +153,6 @@
 
   }
   
-  
   .skills {
     font-size: 2.5vw;
 
@@ -167,7 +160,7 @@
   
 }
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1200px) {
   .header {
     font-size: 3vw;
   }
@@ -188,20 +181,9 @@
     font-size: 2.5vw;
   }
 
-  .icon_dynamic {
-    margin: 0px 600px;
-  }
-  
-  .icon_gameterest {
-    margin: 0px 600px;
-  }
-  
-  .icon_selfcheck {
-    margin: 0px 600px;
-  }
-  
-  .icon_oracle {
-    margin: 0px 600px;
+  .link_space {
+    margin-left: 40%;
+    margin-right: 40%;
   }
   
   .image {
@@ -222,20 +204,9 @@
 
 }
 
-@media only screen and (min-width:1800px) {
-  .icon_dynamic {
-    margin: 0px 750px;
-  }
-  
-  .icon_gameterest {
-    margin: 0px 750px;
-  }
-  
-  .icon_selfcheck {
-    margin: 0px 750px;
-  }
-  
-  .icon_oracle {
-    margin: 0px 750px;
+@media only screen and (min-width:1600px) {
+  .link_space {
+    margin-left: 42%;
+    margin-right: 42%;
   }
 }

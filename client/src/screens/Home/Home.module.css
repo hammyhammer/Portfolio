@@ -37,75 +37,38 @@
    color: rgb(29, 198, 210);
  }
 
-.work {
-  text-align: center;
-  margin: 40px 0px;
-  padding: 30px 0px; 
-  /* border: 2px solid green; */
-}
-
-.work>button {
-  font-size: 5vw;
-  border-radius: 4px;
-
-}
-
-.me {
-  text-align: center;
-  margin: 40px 0px;
-  padding: 30px 0px; 
-  border: 2px solid red;
-}
-
-
-.me>button {
-  font-size: 5vw;
-  border-radius: 4px;
-}
 
 @media only screen and (min-width:760px) {
-
-  .home_body {
-    width: auto;
-    height: auto;
-    
-  }
   .welcome {
-    font-size: 6vw;
+    font-size: 4vw;
    }
+
+   .traits {
+    font-size: 2vw;
+    justify-content: center;
+    margin: 0px 20px;     
+  }
+
+  .bullet {
+
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+
+  }
 }
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1200px) {
   .home_body {
     width: auto;
     height: auto;
   }
   
   .welcome {
-    font-size: 3vw;
+    font-size: 3.25vw;
    }
 
    .traits {
-    font-size: 2vw;
-    margin: 0px 0px;
-    border: 2px solid pink;
-  }
-
-  .driven {
-    border: 2px solid yellow;
-    
-  }
- 
-  .creative {
-    border: 2px solid yellow;
-  }
- 
-  .software {
-    border: 2px solid yellow;
-  }
-
-  .bullet {
-    border: 2px solid yellow;
-
+    font-size: 1.75vw;
   }
 }
