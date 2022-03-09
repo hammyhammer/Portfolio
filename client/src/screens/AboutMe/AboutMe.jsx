@@ -17,7 +17,7 @@ export default function AboutMe() {
       <div className={aboutcss.skills}>
         JavaScript | Ruby | CSS | HTML | SQL | React.js | Rails | MongoDB | Mongoose | Express | Node.js | Styled-Components CSS | Heroku | Netlify | Github
       </div>
-      <div>
+      <div className={aboutcss.resume_space}>
         <a
           className={aboutcss.resume}
           href={resume}

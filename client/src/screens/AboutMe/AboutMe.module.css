@@ -1,5 +1,4 @@
 .whole {
-  /* border: 2px solid seagreen; */
   height: auto;
   color: white;
 }
@@ -7,28 +6,22 @@
 .header {
   font-size: 4.75vw;
   text-align: left;
-  /* border: 2px solid red; */
   margin: 13px 95px 0px 95px;
   font-family: "Limelight";
-  /* font-weight: bold; */
-
 }
 
 .me {
-  /* border: 2px solid yellow; */
   width: 50vw;
   height: 30vh;
   display: block;
   margin: 10px 0px;
   margin-left: auto;
   margin-right: auto;
-  /* filter: grayscale(100%); */
   padding: 5px;
   border: 2px solid white;
 }
 
 .branding {
-  /* border: 2px solid cyan; */
   margin: 10px 30px;
   font-size: 3vw;
   text-align: center;
@@ -48,7 +41,6 @@
   margin: 10px 30px;
   font-size: 3vw;
   text-align: center;
-  /* border: 2px solid orange; */
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
 }
@@ -62,6 +54,13 @@
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
   font-size: 4vw;
+}
+
+.resume_space {
+  border: 2px solid blue;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 @media only screen and (min-width:760px) {
@@ -91,9 +90,13 @@
   }
 
   .me {
-    /* border: 2px solid yellow; */
     width: 40vw;
     height: 40vh;
+  }
+
+  .resume_space {
+    margin-left: 30%;
+    margin-right: 30%
 
   }
 
@@ -129,6 +132,17 @@
 
   .resume {
     font-size: 2vw;
+    translate: all 5s ease-in-out;
+  }
+  
+  .resume:hover {
+    color: rgb(255, 0, 128);
+  }
+
+  .resume_space {
+    margin-left: 40%;
+    margin-right: 40%
+
   }
 }
 
@@ -161,6 +175,13 @@
   }
 
   .resume {
-    font-size: 2vw;
+    font-size: 1.5vw;
+  }
+
+
+  .resume_space {
+    margin-left: 43%;
+    margin-right: 43%
+
   }
 }

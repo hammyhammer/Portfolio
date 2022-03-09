@@ -47,16 +47,6 @@
   color: rgb(29, 198, 210);
 
 }
-  /* Below is for the images of screenshots of apps */
-/* .image {
-  width: 75vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
-  filter: grayscale(50%);
-  border: 2px white solid;
-} */
 
 .link_space {
   border: 2px solid white;
@@ -71,52 +61,40 @@
 
 .icon_gameterest {
   color: rgb(255, 0, 128);
-
 }
 
 .icon_selfcheck {
   color: rgb(255, 255, 0);
-  border: 2px solid pink;
-
 }
 
 .icon_oracle {
   color: rgb(29, 198, 210);
 }
 
-
-
 .description {
   text-align: center;
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
-  /* font-family: "Cormorant Garamond"; */
-  /* font-weight: bold; */
   margin: 10px 10px;
   font-size: 3vw;
-
 }
-
 
 .skills {
   text-align: center;
-  /* font-family: "goblin one"; */
   font-family: "BhuTuka Expanded One";
-  /* font-family: "Cormorant Garamond"; */
   font-weight: 900;
   margin: 10px 10px;
   font-size: 3vw;
-
 }
-
 
 .divider {
   border: 2px dotted white;
-  margin: 0px 40px 10px 40px;
+  margin-bottom: 10px;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 /* Media query for ipad */
-
 @media only screen and (min-width:760px) {
   .header {
     font-size: 3vw;
@@ -184,6 +162,11 @@
   .link_space {
     margin-left: 40%;
     margin-right: 40%;
+    transition: all 1.25s ease-in-out;
+  }
+
+  .link_space:hover {
+    background-color: rgb(225, 225, 225);
   }
   
   .image {
@@ -194,7 +177,6 @@
   
   .description {
     font-size: 1.5vw;
-
   }
   
 
@@ -243,7 +225,6 @@
   
   .description {
     font-size: 1.25vw;
-
   }
   
 
