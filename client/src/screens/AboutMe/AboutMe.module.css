@@ -57,7 +57,6 @@
 }
 
 .resume_space {
-  border: 2px solid blue;
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
@@ -134,7 +133,7 @@
     font-size: 2vw;
     translate: all 5s ease-in-out;
   }
-  
+
   .resume:hover {
     color: rgb(255, 0, 128);
   }
