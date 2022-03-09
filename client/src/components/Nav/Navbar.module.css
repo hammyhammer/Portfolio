@@ -18,6 +18,10 @@
   font-size: 4vw;
   font-family: "Fredericka the Great";
   font-weight: bold;
+  transition: 0.3s;
+}
+.individual_links:hover {
+  color: rgb(255, 0, 128);
 
 }
 

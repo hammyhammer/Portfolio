@@ -11,8 +11,8 @@
 }
 
 .me {
-  width: 50vw;
-  height: 30vh;
+  width: 250px;
+  height: 250px;
   display: block;
   margin: 10px 0px;
   margin-left: auto;
@@ -67,11 +67,6 @@
     font-size: 3vw;
   }
   
-  .me {
-    width: 50vw;
-    height: 40vh;
-  }
-  
   .intro_skills {
     font-size: 2.25vw;
   }
@@ -89,8 +84,8 @@
   }
 
   .me {
-    width: 40vw;
-    height: 40vh;
+    width: 300px;
+    height: 300px;
   }
 
   .resume_space {
@@ -109,8 +104,8 @@
   }
   
   .me {
-    width: 30vw;
-    height: 40vh;
+    width: 350px;
+    height: 350px;
   }
   
   .intro_skills {
@@ -153,8 +148,8 @@
   }
   
   .me {
-    width: 20vw;
-    height: 30vh;
+    width: 400px;
+    height: 400px;
   }
   
   .intro_skills {
