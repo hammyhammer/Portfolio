@@ -17,7 +17,7 @@ export default function Projects() {
         <p className={projectcss.description}>A fitness journal where users can record notes of exercises they have done.</p>
         <div className={projectcss.link_space}>
           <h5 className={projectcss.title_dynamic}>Dynamic</h5>
-          <a href="https://621f874f3bd9090007f373bb--quizzical-jang-12a296.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
             <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
           </a>
         </div>
@@ -49,7 +49,7 @@ export default function Projects() {
         <div className={projectcss.link_space}>
           <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
 
-          <a href="https://61e6d494910579b53712d385--unruffled-hermann-51aab3.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
             <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
