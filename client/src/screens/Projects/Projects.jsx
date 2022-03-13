@@ -1,11 +1,8 @@
-import React from 'react'
 import projectcss from './Projects.module.css';
-import { IoIosFitness } from 'react-icons/io'
+import { IoIosFitness } from 'react-icons/io';
 import { BsController } from "react-icons/bs";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { GiBoltSpellCast } from "react-icons/gi";
-
-
 
 export default function Projects() {
   return (

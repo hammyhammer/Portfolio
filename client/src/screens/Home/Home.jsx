@@ -1,8 +1,7 @@
-import React from 'react'
-import homecss from './Home.module.css'
-import Layout from '../../components/Layout/Layout'
-import AboutMe from '../AboutMe/AboutMe.jsx'
-import Projects from '../Projects/Projects'
+import homecss from './Home.module.css';
+import Layout from '../../components/Layout/Layout';
+import AboutMe from '../AboutMe/AboutMe.jsx';
+import Projects from '../Projects/Projects';
 
 export default function Home() {
   return (
