@@ -13,10 +13,10 @@ export default function AboutMe() {
         imperative. After coaching with young athletes, I have learned to love
         and appreciate the process of reaching a common goal.
       </div>
-      <div className={aboutcss.intro_skills}>Skills: </div>
-      <div className={aboutcss.skills}>
+      {/* <div className={aboutcss.intro_skills}>Skills: </div> */}
+      {/* <div className={aboutcss.skills}>
         JavaScript | Ruby | CSS | HTML | SQL | React.js | Rails | MongoDB | Mongoose | Express | Node.js | Styled-Components CSS | Heroku | Netlify | Github
-      </div>
+      </div> */}
       <div className={aboutcss.resume_space}>
         <a
           className={aboutcss.resume}

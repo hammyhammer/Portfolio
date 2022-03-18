@@ -110,6 +110,34 @@
   font-size: 3vw;
 }
 
+.skills>.dynamic {
+  color: rgb(206, 24, 206);
+  text-decoration: none;
+
+}
+
+.skills>.gameterest {
+  color: rgb(255, 0, 128);
+  text-decoration: none;
+
+}
+
+.skills>.selfcheck {
+  color: rgb(255, 255, 0);
+  text-decoration: none;
+
+}
+
+.skills>.oracle {
+  color: rgb(29, 198, 210);
+  text-decoration: none;
+
+}
+
+.skills>a:hover {
+  text-decoration: underline;
+}
+
 .divider {
   border: 2px dotted white;
   margin-bottom: 10px;
