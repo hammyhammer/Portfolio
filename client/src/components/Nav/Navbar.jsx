@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import navcss from './Navbar.module.css';
 import resume from '../../assets/resume/jacobs-resume.pdf'
 
