@@ -19,7 +19,7 @@ export default function Projects() {
           </a>
         </div>
         <p className={projectcss.skills}>
-          React.js | Ruby on Rails | JavaScript | Component Styling
+          React.js | Ruby on Rails | JavaScript | Component Styling | <a href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
         </p>
         <div className={projectcss.divider}></div>
       </div>
@@ -32,12 +32,11 @@ export default function Projects() {
           </a>
         </div>
         <p className={projectcss.skills}>
-          Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
+          Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling | <a href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a> | <a href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
+
+
         </p>
         <div className={projectcss.divider}></div>
-
-        {/* <a href="https://github.com/Jacobdye99/Gameterest_BackEnd">Backend Repo</a>
-        <a href="https://github.com/Elvedin123/gametrest-frontend">Frontend Repo</a> */}
 
       </div>
       <div className={projectcss.selfcheck}>
@@ -51,7 +50,7 @@ export default function Projects() {
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML</p>
+        <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML | <a href="https://github.com/hammyhammer/bmi-calculator" target="_blank" rel="noreferrer">Github Repo</a></p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
 
@@ -68,7 +67,7 @@ export default function Projects() {
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>Javascript | CSS | HTML</p>
+        <p className={projectcss.skills}>Javascript | CSS | HTML | <a href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference" target="_blank" rel="noreferrer">Github Repo</a></p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
 
