@@ -25,7 +25,7 @@
   margin: 10px 30px;
   font-size: 3vw;
   text-align: center;
-  font-family: "BhuTuka Expanded One";
+  /* font-family: "BhuTuka Expanded One"; */
   
   font-weight: 600;
   color: white;
@@ -55,6 +55,14 @@
   font-family: "BhuTuka Expanded One";
   font-weight: bold;
   font-size: 4vw;
+  border: 2px solid white;
+  border-radius: 2px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.resume:hover {
+  background-color: rgb(255, 0, 128);
 }
 
 .resume_space {
@@ -128,10 +136,6 @@
   .resume {
     font-size: 2vw;
     translate: all 5s ease-in-out;
-  }
-
-  .resume:hover {
-    color: rgb(255, 0, 128);
   }
 
   .resume_space {

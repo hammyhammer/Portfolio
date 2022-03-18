@@ -22,7 +22,7 @@ export default function AboutMe() {
           target="blank"
           id="resume"
         >
-          My resume
+          My Resume
         </a>
       </div>
 
