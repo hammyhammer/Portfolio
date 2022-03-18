@@ -1,7 +1,7 @@
 import aboutcss from "./AboutMe.module.css";
 import me from '../../assets/images/me.png'
 import resume from '../../assets/resume/jacobs-resume.pdf'
-
+import Skills from "../Skills/Skills";
 export default function AboutMe() {
   return (
     <div className={aboutcss.whole} id="about-me">
@@ -13,10 +13,8 @@ export default function AboutMe() {
         imperative. After coaching with young athletes, I have learned to love
         and appreciate the process of reaching a common goal.
       </div>
-      {/* <div className={aboutcss.intro_skills}>Skills: </div> */}
-      {/* <div className={aboutcss.skills}>
-        JavaScript | Ruby | CSS | HTML | SQL | React.js | Rails | MongoDB | Mongoose | Express | Node.js | Styled-Components CSS | Heroku | Netlify | Github
-      </div> */}
+      <div className={aboutcss.header}>Skills</div>
+      <Skills />
       <div className={aboutcss.resume_space}>
         <a
           className={aboutcss.resume}
