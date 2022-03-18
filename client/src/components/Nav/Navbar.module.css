@@ -1,6 +1,9 @@
 .nav {
- background-color: transparent;
+ background-color: black;
  border-bottom: 2px solid white;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
 }
 
 .links {
