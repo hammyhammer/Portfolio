@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className={aboutcss.header}>About me</div>
       <img className={aboutcss.me} src={me} alt="Hampton" />
       <div className={aboutcss.branding}>
-        I am a software engineer located in the DC metro area. With a background in athletic development,
+        I am a software developer located in the DC metro area. With a background in athletic development,
         I thrive in team based environments where cooperation and communication is
         imperative. After coaching with young athletes, I have learned to love
         and appreciate the process of reaching a common goal.
