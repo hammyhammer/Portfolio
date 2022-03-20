@@ -13,10 +13,12 @@ export default function Projects() {
       <div className={projectcss.dynamic}>
         <p className={projectcss.description}>A fitness journal where users can record notes of exercises they have done.</p>
         <div className={projectcss.link_space}>
-          <h5 className={projectcss.title_dynamic}>Dynamic</h5>
-          <a href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
+          <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
+            <h5 className={projectcss.title_dynamic}>Dynamic</h5>
+
             <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
           </a>
+
         </div>
         <p className={projectcss.skills}>
           React.js | Ruby on Rails | JavaScript | Component Styling <br /> <a className={projectcss.dynamic} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
@@ -26,8 +28,9 @@ export default function Projects() {
       <div className={projectcss.gameterest}>
         <p className={projectcss.description}>A platform where users can leave reviews and favorite videogames.</p>
         <div className={projectcss.link_space}>
-          <h5 className={projectcss.title_gameterest}>Gameterest</h5>
-          <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
+          <a className={projectcss.link} href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
+
+            <h5 className={projectcss.title_gameterest}>Gameterest</h5>
             <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
           </a>
         </div>
@@ -43,9 +46,10 @@ export default function Projects() {
 
         <p className={projectcss.description}>Users can take a series of self-assessment health exams to gain insight to their health.</p>
         <div className={projectcss.link_space}>
-          <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
+          <a className={projectcss.link} href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
 
-          <a href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
+            <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
+
             <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
@@ -60,9 +64,9 @@ export default function Projects() {
 
         <p className={projectcss.description}>Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly.</p>
         <div className={projectcss.link_space}>
-          <h5 className={projectcss.title_oracle}>Oracle</h5>
+          <a className={projectcss.link} href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
+            <h5 className={projectcss.title_oracle}>Oracle</h5>
 
-          <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
             <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
