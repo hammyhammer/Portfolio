@@ -20,6 +20,8 @@
   font-size: 5.25vw;
   margin: 10px 0px 0px 0px;
   font-family: "Bungee Shade";
+  /* font-family: "goblin one"; */
+
   font-weight: bold;
   color: rgb(206, 24, 206);
 }
@@ -271,11 +273,6 @@
 
   .title_oracle {
     font-size: 2vw;
-  }
-
-  .link_space {
-    margin-left: 40%;
-    margin-right: 40%;
   }
   
   .image {
