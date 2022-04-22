@@ -11,7 +11,7 @@ export default function Projects() {
       <div className={projectcss.divider}></div>
 
       <div className={projectcss.dynamic}>
-        <p className={projectcss.description}>A fitness journal where users can record notes of exercises they have done.</p>
+        <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
             <h5 className={projectcss.title_dynamic}>Dynamic</h5>
@@ -21,12 +21,12 @@ export default function Projects() {
 
         </div>
         <p className={projectcss.skills}>
-          React.js | Ruby on Rails | JavaScript | Component Styling <br /> <a className={projectcss.dynamic} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
+          React.js | Ruby on Rails | JavaScript | CSS | HTML | Component Styling <br /> <a className={projectcss.dynamic} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
         </p>
         <div className={projectcss.divider}></div>
       </div>
       <div className={projectcss.gameterest}>
-        <p className={projectcss.description}>A platform where users can leave reviews and favorite videogames.</p>
+        <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
 
@@ -44,7 +44,7 @@ export default function Projects() {
       </div>
       <div className={projectcss.selfcheck}>
 
-        <p className={projectcss.description}>Users can take a series of self-assessment health exams to gain insight to their health.</p>
+        <p className={projectcss.description}>A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
 
@@ -62,7 +62,7 @@ export default function Projects() {
 
       <div className={projectcss.oracle}>
 
-        <p className={projectcss.description}>Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly.</p>
+        <p className={projectcss.description}>An application where Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly. Built with Javascript, CSS, and HTML</p>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
             <h5 className={projectcss.title_oracle}>Oracle</h5>
