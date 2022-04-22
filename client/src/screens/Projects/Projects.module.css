@@ -107,16 +107,16 @@
 
 .description {
   text-align: center;
-  font-family: "BhuTuka Expanded One";
-  font-weight: bold;
+  /* font-family: "BhuTuka Expanded One";
+  font-weight: bold; */
   margin: 10px 10px;
   font-size: 3vw;
 }
 
 .skills {
   text-align: center;
-  font-family: "BhuTuka Expanded One";
-  font-weight: 900;
+  /* font-family: "BhuTuka Expanded One";
+  font-weight: 900; */
   margin: 10px 10px;
   font-size: 3vw;
 }
@@ -256,7 +256,7 @@
   }
 
   .header {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
   
   .title_dynamic {
@@ -283,6 +283,7 @@
   
   .description {
     font-size: 1.25vw;
+    margin: 10px 150px;
   }
   
 
