@@ -1,5 +1,5 @@
 import navcss from './Navbar.module.css';
-import resume from '../../assets/resume/jacobs-resume.pdf'
+import resume from '../../assets/resume/jacobs_resume.pdf'
 
 export default function Navbar() {
   return (
