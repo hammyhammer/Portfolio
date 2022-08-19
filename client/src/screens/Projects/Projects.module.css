@@ -74,19 +74,19 @@
 }
 
 .dynamic>.link_space {
-  border: 4px solid rgb(206, 24, 206); 
+  border: 4px solid rgb(206, 24, 206);
 }
 
 .gameterest>.link_space {
-  border: 4px solid rgb(255, 0, 128); 
+  border: 4px solid rgb(255, 0, 128);
 }
 
 .selfcheck>.link_space {
-  border: 4px solid yellow; 
+  border: 4px solid yellow;
 }
 
 .oracle>.link_space {
-  border: 4px solid rgb(29, 198, 210); 
+  border: 4px solid rgb(29, 198, 210);
 }
 
 .icon_dynamic {
@@ -112,6 +112,16 @@
   margin: 10px 10px;
   font-size: 3vw;
 }
+
+.icons {
+  width: 10vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  /* height: 14px; */
+}
+
 
 .skills {
   text-align: center;
@@ -161,7 +171,7 @@
   .header {
     font-size: 3vw;
   }
-  
+
   .title_dynamic {
     font-size: 3.5vw;
   }
@@ -187,16 +197,16 @@
     width: 80vw;
     height: 40vh;
   }
-  
+
   .description {
     font-size: 2vw;
     margin: 10px 30px
   }
-  
+
   .skills {
     font-size: 2vw;
   }
-  
+
 }
 
 @media only screen and (min-width:1200px) {
@@ -209,7 +219,7 @@
   .header {
     font-size: 3vw;
   }
-  
+
   .title_dynamic {
     font-size: 2.5vw;
   }
@@ -231,17 +241,17 @@
     margin-right: 39%;
   }
 
-  
+
   .image {
     width: 50vw;
     height: 40vh;
   }
 
-  
+
   .description {
     font-size: 1.5vw;
   }
-  
+
 
   .skills {
     font-size: 1.5vw;
@@ -258,7 +268,7 @@
   .header {
     font-size: 2.5vw;
   }
-  
+
   .title_dynamic {
     font-size: 2vw;
   }
@@ -274,18 +284,18 @@
   .title_oracle {
     font-size: 2vw;
   }
-  
+
   .image {
     width: 50vw;
     height: 40vh;
   }
 
-  
+
   .description {
     font-size: 1.25vw;
     margin: 10px 150px;
   }
-  
+
 
   .skills {
     font-size: 1.25vw;
