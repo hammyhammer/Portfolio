@@ -3,11 +3,11 @@ html {
 }
 
 .nav {
- background-color: black;
- border-bottom: 2px solid white;
- position: -webkit-sticky;
- position: sticky;
- top: 0;
+  background-color: #25362E;
+  border-bottom: 2px solid white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .name {
@@ -52,7 +52,7 @@ html {
     margin-left: 0%;
     margin-right: 0%;
   }
-  
+
   .individual_links {
     display: flex;
     font-size: 2vw;
@@ -85,6 +85,3 @@ html {
     margin-right: 46%;
   }
 }
-
-
-
