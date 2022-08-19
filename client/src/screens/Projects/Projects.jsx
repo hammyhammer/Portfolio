@@ -71,9 +71,12 @@ export default function Projects() {
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>      <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
+        <p className={projectcss.skills}> Javascript | CSS | HTML
+          {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> <br /> <a className={projectcss.oracle} href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference" target="_blank" rel="noreferrer">Github Repo</a></p>
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
+          <br />
+          <a className={projectcss.oracle} href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference" target="_blank" rel="noreferrer">Github Repo</a></p>
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
 
