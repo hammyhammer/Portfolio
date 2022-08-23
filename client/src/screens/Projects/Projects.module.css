@@ -106,7 +106,7 @@
 }
 
 .description {
-  text-align: center;
+  /* text-align: center; */
   /* font-family: "BhuTuka Expanded One";
   font-weight: bold; */
   margin: 10px 10px;
@@ -210,11 +210,17 @@
 }
 
 @media only screen and (min-width:1200px) {
+
   /* .dynamic {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
   } */
+  .dynamic {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+  }
 
   .header {
     font-size: 3vw;
@@ -237,8 +243,8 @@
   }
 
   .link_space {
-    margin-left: 39%;
-    margin-right: 39%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
 

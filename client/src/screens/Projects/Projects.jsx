@@ -11,7 +11,20 @@ export default function Projects() {
       <div className={projectcss.divider}></div>
 
       <div className={projectcss.dynamic}>
-        <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
+        <div>
+          <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
+          <p className={projectcss.skills}>
+            Tech Stack:
+            React.js | Ruby on Rails | JavaScript | CSS | HTML | Component Styling
+            {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt="ruby" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" alt="rails" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
+            <br /> <a className={projectcss.dynamic} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
+          </p>
+        </div>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
             <h5 className={projectcss.title_dynamic}>Dynamic</h5>
@@ -21,6 +34,7 @@ export default function Projects() {
 
         </div>
         <p className={projectcss.skills}>
+          Tech Stack:
           React.js | Ruby on Rails | JavaScript | CSS | HTML | Component Styling
           {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt="ruby" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" alt="rails" />
