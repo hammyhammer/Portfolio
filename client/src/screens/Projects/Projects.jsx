@@ -57,7 +57,7 @@ export default function Projects() {
           </a>
         </div>
 
-        <div className={projectcss.divider}></div>
+        {/* <div className={projectcss.divider}></div> */}
 
       </div>
       <div className={projectcss.selfcheck}>
@@ -81,7 +81,7 @@ export default function Projects() {
         </div>
 
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
-        <div className={projectcss.divider}></div>
+        {/* <div className={projectcss.divider}></div> */}
 
       </div>
 
@@ -105,7 +105,7 @@ export default function Projects() {
         </div>
 
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
-        <div className={projectcss.divider}></div>
+        {/* <div className={projectcss.divider}></div> */}
 
       </div>
 
