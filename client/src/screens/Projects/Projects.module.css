@@ -283,8 +283,10 @@
   }
 
   .link_space {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 50px;
+    padding: 0px 50px;
+    /* margin-left: 0%;
+    margin-right: 0%; */
   }
 
 
