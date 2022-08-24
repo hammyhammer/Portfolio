@@ -61,8 +61,15 @@ export default function Projects() {
 
       </div>
       <div className={projectcss.selfcheck}>
-
-        <p className={projectcss.description}>A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
+        <div>
+          <p className={projectcss.description}>A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
+          <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML
+            {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
+            <br /> <a className={projectcss.selfcheck} href="https://github.com/hammyhammer/bmi-calculator" target="_blank" rel="noreferrer">Github Repo</a></p>
+        </div>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
 
@@ -72,12 +79,7 @@ export default function Projects() {
             {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML
-          {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
-          <br /> <a className={projectcss.selfcheck} href="https://github.com/hammyhammer/bmi-calculator" target="_blank" rel="noreferrer">Github Repo</a></p>
+
         {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
         <div className={projectcss.divider}></div>
 
