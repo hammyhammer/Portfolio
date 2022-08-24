@@ -11,9 +11,9 @@ export default function Home() {
           Hampton Jacobs
         </div>
         <div className={homecss.traits}><p className={homecss.driven}>Driven</p><p className={homecss.bullet}>{"\u2022"}</p><p className={homecss.creative}>Creative</p><p className={homecss.bullet}>{"\u2022"}</p><p className={homecss.software}>Software Developer</p> </div>
-
-        <Projects />
         <AboutMe />
+        <Projects />
+
       </div>
 
     </Layout>
