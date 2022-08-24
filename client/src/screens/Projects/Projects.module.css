@@ -219,7 +219,7 @@
   .dynamic {
     display: flex;
     justify-content: flex-start;
-    border: 1px solid red;
+    border: 1px solid pink;
   }
 
   .gameterest {
@@ -257,12 +257,8 @@
     font-size: 3vw;
   }
 
-  .leftpage {
-    margin-right: 20%;
-  }
 
   .description {
-    border: 1px solid red;
     width: 50%
   }
 

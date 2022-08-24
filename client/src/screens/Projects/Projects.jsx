@@ -36,7 +36,7 @@ export default function Projects() {
         {/* <div className={projectcss.divider}></div> */}
       </div>
       <div className={projectcss.gameterest}>
-        <div className={projectcss.leftpage}>
+        <div>
           <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
 
           <p className={projectcss.skills}>
