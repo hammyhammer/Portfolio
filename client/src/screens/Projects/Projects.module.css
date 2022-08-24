@@ -222,6 +222,24 @@
     border: 1px solid red;
   }
 
+  .gameterest {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+  }
+
+  .selfcheck {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+  }
+
+  .oracle {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+  }
+
   .header {
     font-size: 3vw;
   }
