@@ -36,7 +36,19 @@ export default function Projects() {
         {/* <div className={projectcss.divider}></div> */}
       </div>
       <div className={projectcss.gameterest}>
-        <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
+        <div>
+          <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
+
+          <p className={projectcss.skills}>
+            Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
+            {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongoDB" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
+          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
+            <br /> <a className={projectcss.gameterest} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a> | <a className={projectcss.gameterest} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
+          </p>
+        </div>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
 
@@ -44,17 +56,7 @@ export default function Projects() {
             <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
           </a>
         </div>
-        <p className={projectcss.skills}>
-          Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
-          {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongoDB" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
-          <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}
-          <br /> <a className={projectcss.gameterest} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a> | <a className={projectcss.gameterest} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
 
-
-        </p>
         <div className={projectcss.divider}></div>
 
       </div>
