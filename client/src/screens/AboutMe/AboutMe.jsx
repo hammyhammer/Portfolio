@@ -6,12 +6,15 @@ export default function AboutMe() {
   return (
     <div className={aboutcss.whole} id="about-me">
       <div className={aboutcss.header}>About me</div>
-      <img className={aboutcss.me} src={me} alt="Hampton" />
-      <div className={aboutcss.branding}>
-        I am a software developer located in the DC metro area. With a background in athletic development,
-        I thrive in team based environments where cooperation and communication is
-        imperative. After coaching with young athletes, I have learned to love
-        and appreciate the process of reaching a common goal.
+      <div className={aboutcss.main}>
+        <div className={aboutcss.branding}>
+          I am a software developer located in the DC metro area. With a background in athletic development,
+          I thrive in team based environments where cooperation and communication is
+          imperative. After coaching with young athletes, I have learned to love
+          and appreciate the process of reaching a common goal.
+        </div>
+        <img className={aboutcss.me} src={me} alt="Hampton" />
+
       </div>
       <div className={aboutcss.header}>Skills</div>
       <Skills />
