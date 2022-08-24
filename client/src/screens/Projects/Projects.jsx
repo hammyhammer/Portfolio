@@ -12,6 +12,7 @@ export default function Projects() {
 
       <div className={projectcss.dynamic}>
         <div>
+          <h5>Dynamic</h5>
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
