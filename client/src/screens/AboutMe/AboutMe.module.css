@@ -3,11 +3,6 @@
   color: white;
 }
 
-.main {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .header {
   font-size: 4.75vw;
   text-align: center;
@@ -116,6 +111,11 @@
 
   }
 
+  .main {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .me {
     width: 350px;
     height: 350px;
@@ -128,7 +128,8 @@
 
   .branding {
     font-size: 1.5vw;
-    margin: 10px 300px;
+    width: 30%;
+    margin: 10px 50px;
 
   }
 
