@@ -4,7 +4,7 @@
 }
 
 .header {
-  font-size: 4.75vw;
+  font-size: 4.5vw;
   text-align: center;
   margin: 13px 95px 0px 95px;
   font-family: "Limelight";
@@ -106,9 +106,7 @@
 
 @media only screen and (min-width:1200px) {
   .header {
-    font-size: 2.5vw;
-    margin: 13px 300px 0px 300px;
-
+    font-size: 2vw;
   }
 
   .main {
@@ -128,7 +126,7 @@
 
   .branding {
     font-size: 1.5vw;
-    width: 30%;
+    width: 40%;
     margin: 10px 50px;
 
   }
