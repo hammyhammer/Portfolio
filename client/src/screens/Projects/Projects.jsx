@@ -14,7 +14,7 @@ export default function Projects() {
         <div>
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
           <p className={projectcss.skills}>
-            Tech Stack:
+            Tech Stack: <br />
             React.js | Ruby on Rails | JavaScript | CSS | HTML | Component Styling
             {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt="ruby" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" alt="rails" />
@@ -36,10 +36,11 @@ export default function Projects() {
         {/* <div className={projectcss.divider}></div> */}
       </div>
       <div className={projectcss.gameterest}>
-        <div>
+        <div className={projectcss.leftpage}>
           <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
 
           <p className={projectcss.skills}>
+            Tech Stack: <br />
             Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling
             {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongoDB" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
@@ -62,8 +63,12 @@ export default function Projects() {
       </div>
       <div className={projectcss.selfcheck}>
         <div>
-          <p className={projectcss.description}>A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
-          <p className={projectcss.skills}>Airtable | React.js | Javascript | CSS | HTML
+
+          <p className={projectcss.description}>
+            A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
+          <p className={projectcss.skills}>
+            Tech Stack: <br />
+            Airtable | React.js | Javascript | CSS | HTML
             {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
@@ -88,7 +93,9 @@ export default function Projects() {
       <div className={projectcss.oracle}>
         <div>
           <p className={projectcss.description}>An application where Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly. Built with Javascript, CSS, and HTML</p>
-          <p className={projectcss.skills}> Javascript | CSS | HTML
+          <p className={projectcss.skills}>
+            Tech Stack: <br />
+            Javascript | CSS | HTML
             {/* <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
           <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" /> */}

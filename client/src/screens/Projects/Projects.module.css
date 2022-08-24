@@ -257,6 +257,14 @@
     font-size: 3vw;
   }
 
+  .leftpage {
+    margin-right: 20%;
+  }
+
+  .description {
+    border: 1px solid red;
+    width: 50%
+  }
 
   .title_dynamic {
     font-size: 2.5vw;
