@@ -33,7 +33,8 @@
   margin: 10px 0px 0px 0px;
   font-family: "Bungee Shade";
   word-wrap: break-word;
-
+  border: 4px solid rgb(206, 24, 206);
+  border-bottom: none;
   /* font-family: "goblin one"; */
 
   font-weight: bold;
@@ -77,7 +78,7 @@
 
 
 .link_space {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   text-align: center;
   margin-left: 24%;
   margin-right: 24%;
@@ -87,10 +88,6 @@
 
 .link_space:hover {
   background-color: rgb(225, 225, 225);
-}
-
-.dynamic>.link_space {
-  border: 4px solid rgb(206, 24, 206);
 }
 
 .gameterest>.link_space {
@@ -106,6 +103,8 @@
 }
 
 .icon_dynamic {
+  border: 4px solid rgb(206, 24, 206);
+  border-top: none;
   color: rgb(206, 24, 206);
 }
 
