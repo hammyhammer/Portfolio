@@ -10,7 +10,7 @@ export default function Projects() {
       <h2 className={projectcss.header}>Projects</h2>
       <div className={projectcss.divider}></div>
 
-      <div className={projectcss.dynamic}>
+      <div className={projectcss.project_container}>
         <div>
           <h5 className={projectcss.project_title}>Dynamic</h5>
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
@@ -36,7 +36,7 @@ export default function Projects() {
         </div>
         {/* <div className={projectcss.divider}></div> */}
       </div>
-      <div className={projectcss.gameterest}>
+      <div className={projectcss.project_container}>
         <div>
           <h5 className={projectcss.project_title}>Gameterest</h5>
 
@@ -64,7 +64,7 @@ export default function Projects() {
         {/* <div className={projectcss.divider}></div> */}
 
       </div>
-      <div className={projectcss.selfcheck}>
+      <div className={projectcss.project_container}>
         <div>
           <h5 className={projectcss.project_title}>Self-Check</h5>
 
@@ -94,7 +94,7 @@ export default function Projects() {
 
       </div>
 
-      <div className={projectcss.oracle}>
+      <div className={projectcss.project_container}>
         <div>
           <h5 className={projectcss.project_title}>Oracle</h5>
 

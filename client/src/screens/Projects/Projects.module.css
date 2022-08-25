@@ -19,10 +19,12 @@
   display: none
 }
 
-.dynamic {
+.project_container {
   display: flex;
   flex-direction: column-reverse;
   border: 2px solid red;
+  margin-bottom: 15%;
+
 }
 
 .title_dynamic {
@@ -183,26 +185,6 @@
   color: black;
   text-decoration: none;
   /* width: 10% */
-}
-
-.dynamic {
-  margin-bottom: 15%;
-
-}
-
-.gameterest {
-  margin-bottom: 15%;
-
-}
-
-.selfcheck {
-  margin-bottom: 15%;
-
-}
-
-.oracle {
-  margin-bottom: 15%;
-
 }
 
 /* .divider {
