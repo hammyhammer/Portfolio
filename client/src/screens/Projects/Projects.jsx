@@ -8,7 +8,6 @@ export default function Projects() {
   return (
     <div className={projectcss.whole} id="projects">
       <h2 className={projectcss.header}>Projects</h2>
-      <div className={projectcss.divider}></div>
 
       <div className={projectcss.project_container}>
         <div>
@@ -16,14 +15,15 @@ export default function Projects() {
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
-            {/* React.js | Ruby on Rails | JavaScript | CSS | HTML | Component Styling */}
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt="ruby" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" alt="rails" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
-            <br /><a className={projectcss.button} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
+          </p>
+          <p className={projectcss.button_space}>
+            <a className={projectcss.button} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
           </p>
         </div>
         <div className={projectcss.link_space}>
@@ -34,7 +34,8 @@ export default function Projects() {
           </a>
 
         </div>
-        {/* <div className={projectcss.divider}></div> */}
+
+
       </div>
       <div className={projectcss.project_container}>
         <div>
@@ -44,13 +45,15 @@ export default function Projects() {
 
           <p className={projectcss.skills}>
             Tech Stack: <br />
-            {/* Mongoose | MongoDB | Express | React.js | JavaScript | Component Styling */}
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongoDB" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
-            <br /> <a className={projectcss.button} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a><a className={projectcss.button} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
+          </p>
+          <p className={projectcss.button_space}>
+            <a className={projectcss.button} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a><a className={projectcss.button} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
+
           </p>
         </div>
         <div className={projectcss.link_space}>
@@ -61,8 +64,6 @@ export default function Projects() {
           </a>
         </div>
 
-        {/* <div className={projectcss.divider}></div> */}
-
       </div>
       <div className={projectcss.project_container}>
         <div>
@@ -72,12 +73,14 @@ export default function Projects() {
             A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
-            {/* Airtable | React.js | Javascript | CSS | HTML */}
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
-            <br /> <a className={projectcss.button} href="https://github.com/hammyhammer/bmi-calculator" target="_blank" rel="noreferrer">Github Repo</a></p>
+          </p>
+          <p className={projectcss.button_space}>
+            <a className={projectcss.button} href="https://github.com/hammyhammer/bmi-calculator" target="_blank" rel="noreferrer">Github Repo</a>
+          </p>
         </div>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
@@ -85,12 +88,8 @@ export default function Projects() {
             <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
 
             <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
-            {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-
-        {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
-        {/* <div className={projectcss.divider}></div> */}
 
       </div>
 
@@ -101,27 +100,23 @@ export default function Projects() {
           <p className={projectcss.description}>An application where Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly. Built with Javascript, CSS, and HTML</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
-            {/* Javascript | CSS | HTML */}
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
-            <br />
-            <a className={projectcss.button} href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference" target="_blank" rel="noreferrer">Github Repo</a></p>
+          </p>
+          <p className={projectcss.button_space}>
+            <a className={projectcss.button} href="https://github.com/hammyhammer/Oracle-DnD_Spell_Reference" target="_blank" rel="noreferrer">Github Repo</a>
+
+          </p>
         </div>
         <div className={projectcss.link_space}>
           <a className={projectcss.link} href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
             <h5 className={projectcss.title_oracle}>Oracle</h5>
 
             <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
-            {/* <img className={projectcss.image} src={self_check} alt="self-check page" /> */}
           </a>
         </div>
-
-        {/* <a href="https://github.com/hammyhammer/bmi-calculator">Repo</a> */}
-        {/* <div className={projectcss.divider}></div> */}
-
       </div>
-
     </div>
   )
 }
