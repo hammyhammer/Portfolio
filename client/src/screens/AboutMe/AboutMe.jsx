@@ -14,7 +14,7 @@ export default function AboutMe() {
             imperative. After coaching with young athletes, I have learned to love
             and appreciate the process of reaching a common goal.
           </p>
-          <div>Available Skills</div>
+          <div className={aboutcss.header}>Available Skills</div>
           <Skills />
         </div>
         <img className={aboutcss.me} src={me} alt="Hampton" />
