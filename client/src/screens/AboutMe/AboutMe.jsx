@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className={aboutcss.main}>
         <div className={aboutcss.branding}>
           <h5 className={aboutcss.header}>Hi, I'm Hampton Jacobs. Driven, creative software Developer</h5>
-          <p>
+          <p className={aboutcss.intro}>
             I am a software developer located in the DC metro area. With a background in athletic development,
             I thrive in team based environments where cooperation and communication is
             imperative. After coaching with young athletes, I have learned to love

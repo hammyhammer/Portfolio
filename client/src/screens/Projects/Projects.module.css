@@ -163,6 +163,18 @@
   text-decoration: underline;
 }
 
+.button {
+  /* display: flex;
+  justify-content: column; */
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  /* width: 10% */
+}
+
 /* .divider {
   border: 2px dotted white;
   margin-bottom: 10px;
@@ -242,19 +254,6 @@
     display: flex;
     justify-content: flex-start;
     border: 1px solid red;
-  }
-
-
-  .button {
-    display: flex;
-    justify-content: column;
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: white;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    width: 10%
   }
 
   .header {
