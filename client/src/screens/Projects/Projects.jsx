@@ -12,7 +12,7 @@ export default function Projects() {
 
       <div className={projectcss.dynamic}>
         <div>
-          <h5>Dynamic</h5>
+          <h5 className={projectcss.project_title}>Dynamic</h5>
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
@@ -38,6 +38,8 @@ export default function Projects() {
       </div>
       <div className={projectcss.gameterest}>
         <div>
+          <h5 className={projectcss.project_title}>Gameterest</h5>
+
           <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
 
           <p className={projectcss.skills}>
@@ -64,6 +66,7 @@ export default function Projects() {
       </div>
       <div className={projectcss.selfcheck}>
         <div>
+          <h5 className={projectcss.project_title}>Self-Check</h5>
 
           <p className={projectcss.description}>
             A frontend application built with React, Javascript, CSS, and HTML. Visitors can take a series of self-assessment health exams to gain insight to their health.</p>
@@ -93,6 +96,8 @@ export default function Projects() {
 
       <div className={projectcss.oracle}>
         <div>
+          <h5 className={projectcss.project_title}>Oracle</h5>
+
           <p className={projectcss.description}>An application where Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly. Built with Javascript, CSS, and HTML</p>
           <p className={projectcss.skills}>
             Tech Stack: <br />

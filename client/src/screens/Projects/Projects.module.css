@@ -15,6 +15,16 @@
   text-decoration: none;
 }
 
+.project_title {
+  display: none
+}
+
+.dynamic {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 2px solid red;
+}
+
 .title_dynamic {
   text-align: center;
   font-size: 5.25vw;
