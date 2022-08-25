@@ -52,8 +52,8 @@ export default function Projects() {
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
           </p>
           <p className={projectcss.button_space}>
-            <a className={projectcss.button} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a><a className={projectcss.button} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
-
+            <a className={projectcss.button} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a>
+            <a className={projectcss.button} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
           </p>
         </div>
         <div className={projectcss.link_space}>
