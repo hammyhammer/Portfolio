@@ -41,9 +41,9 @@
   color: rgb(206, 24, 206);
 }
 
-.title_dynamic>a {
+/* .title_dynamic>a {
   text-decoration: none;
-}
+} */
 
 .title_gameterest {
   text-align: center;
@@ -53,6 +53,8 @@
   font-weight: bold;
   color: rgb(255, 0, 128);
   word-wrap: break-word;
+  border: 4px solid rgb(255, 0, 128);
+  border-bottom: none;
 }
 
 .title_selfcheck {
@@ -63,6 +65,8 @@
   font-weight: bold;
   color: yellow;
   word-wrap: break-word;
+  border: 4px solid yellow;
+  border-bottom: none;
 }
 
 .title_oracle {
@@ -73,6 +77,8 @@
   font-weight: bold;
   color: rgb(29, 198, 210);
   word-wrap: break-word;
+  border: 4px solid rgb(29, 198, 210);
+  border-bottom: none;
 }
 
 
@@ -90,14 +96,6 @@
   background-color: rgb(225, 225, 225);
 }
 
-.gameterest>.link_space {
-  border: 4px solid rgb(255, 0, 128);
-}
-
-.selfcheck>.link_space {
-  border: 4px solid yellow;
-}
-
 .oracle>.link_space {
   border: 4px solid rgb(29, 198, 210);
 }
@@ -109,14 +107,20 @@
 }
 
 .icon_gameterest {
+  border: 4px solid rgb(255, 0, 128);
+  border-top: none;
   color: rgb(255, 0, 128);
 }
 
 .icon_selfcheck {
+  border: 4px solid yellow;
+  border-top: none;
   color: rgb(255, 255, 0);
 }
 
 .icon_oracle {
+  border: 4px solid rgb(29, 198, 210);
+  border-top: none;
   color: rgb(29, 198, 210);
 }
 
