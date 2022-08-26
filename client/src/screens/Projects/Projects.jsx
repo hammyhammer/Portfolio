@@ -36,11 +36,8 @@ export default function Projects() {
                 <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
               </a>
             </div>
-
           </div>
         </div>
-
-
       </div>
       <div className={projectcss.project_container}>
         <div className={projectcss.left_side}>
@@ -61,14 +58,17 @@ export default function Projects() {
           </p>
 
         </div>
-        <div className={projectcss.link_space}>
-          <a className={projectcss.link} href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
+        <div className={projectcss.dynamic_link}>
+          <div className={projectcss.link_space}>
+            <div className={projectcss.link}>
+              <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
 
-            <h5 className={projectcss.title_gameterest}>Gameterest</h5>
-            <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
-          </a>
+                <h5 className={projectcss.title_gameterest}>Gameterest</h5>
+                <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
+              </a>
+            </div>
+          </div>
         </div>
-
       </div>
       <div className={projectcss.project_container}>
         <div className={projectcss.left_side}>
