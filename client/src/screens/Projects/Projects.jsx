@@ -26,13 +26,15 @@ export default function Projects() {
             <a className={projectcss.button} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
           </p>
         </div>
-        <div className={projectcss.link_space}>
-          <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
-            <h5 className={projectcss.title_dynamic}>Dynamic</h5>
+        <div className={projectcss.dynamic_link}>
+          <div className={projectcss.link_space}>
+            <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
+              <h5 className={projectcss.title_dynamic}>Dynamic</h5>
 
-            <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
-          </a>
+              <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
+            </a>
 
+          </div>
         </div>
 
 
