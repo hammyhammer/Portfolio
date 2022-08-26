@@ -16,7 +16,8 @@
 } */
 
 .project_title {
-  display: hidden;
+  display: none;
+  /* border: 1px solid yellow; */
 }
 
 .project_container {
@@ -183,8 +184,8 @@
   }
 
   .link_space {
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   .image {
@@ -194,7 +195,7 @@
 
   .description {
     font-size: 2vw;
-    margin: 10px 30px
+    margin: 40px 30px
   }
 
   .skills {
@@ -367,7 +368,6 @@
 
   .description {
     font-size: 1.25vw;
-    margin: 10px 150px;
   }
 
 
