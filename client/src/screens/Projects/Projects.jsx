@@ -43,7 +43,7 @@ export default function Projects() {
 
       </div>
       <div className={projectcss.project_container}>
-        <div>
+        <div className={projectcss.left_side}>
           <h5 className={projectcss.project_title}>Gameterest</h5>
 
           <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
@@ -71,7 +71,7 @@ export default function Projects() {
 
       </div>
       <div className={projectcss.project_container}>
-        <div>
+        <div className={projectcss.left_side}>
           <h5 className={projectcss.project_title}>Self-Check</h5>
 
           <p className={projectcss.description}>
@@ -100,7 +100,7 @@ export default function Projects() {
       </div>
 
       <div className={projectcss.project_container}>
-        <div>
+        <div className={projectcss.left_side}>
           <h5 className={projectcss.project_title}>Oracle</h5>
 
           <p className={projectcss.description}>An application where Dungeons and Dragons enthusiasts can quickly get information on spells and cantrips to make combat go more smoothly. Built with Javascript, CSS, and HTML</p>
