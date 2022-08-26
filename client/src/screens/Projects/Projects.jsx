@@ -7,12 +7,15 @@ import { GiBoltSpellCast } from "react-icons/gi";
 export default function Projects() {
   return (
     <div className={projectcss.whole} id="projects">
-      <h2 className={projectcss.header}>Projects</h2>
+      {/* <h2 className={projectcss.header}>Projects</h2> */}
 
       <div className={projectcss.project_container}>
-        <div>
+        <div className={projectcss.left_side}>
           <h5 className={projectcss.project_title}>Dynamic</h5>
           <p className={projectcss.description}>A full stack fitness journal application built with Ruby on Rails on the backend, and with React on the frontend using styled components. Visitors can create an account or continue as a guest, where they can record notes on the exercises they have done.</p>
+          <p className={projectcss.button_space}>
+            <a className={projectcss.button} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
+          </p>
           <p className={projectcss.skills}>
             Tech Stack: <br />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt="ruby" />
@@ -22,17 +25,17 @@ export default function Projects() {
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css3" />
             <img className={projectcss.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html5" />
           </p>
-          <p className={projectcss.button_space}>
-            <a className={projectcss.button} href="https://github.com/hammyhammer/dynamic" target="_blank" rel="noreferrer">Github Repo</a>
-          </p>
+
         </div>
         <div className={projectcss.dynamic_link}>
           <div className={projectcss.link_space}>
-            <a className={projectcss.link} href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
-              <h5 className={projectcss.title_dynamic}>Dynamic</h5>
+            <div className={projectcss.link}>
+              <a href="https://dynamic-fitness.netlify.app/" target="_blank" rel="noreferrer">
+                <h5 className={projectcss.title_dynamic}>Dynamic</h5>
 
-              <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
-            </a>
+                <div className={projectcss.icon_dynamic}> <IoIosFitness size={98} /> </div>{/* <img className={projectcss.image} src={dynamic} alt="dynamic page" /> */}
+              </a>
+            </div>
 
           </div>
         </div>
