@@ -64,7 +64,7 @@ export default function Projects() {
               <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" >
 
                 <h5 className={projectcss.title_gameterest}>Gameterest</h5>
-                <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div> {/* <img className={projectcss.image} src={gameterest} alt="gameterest page" /> */}
+                <div className={projectcss.icon_gameterest}> <BsController size={98} /> </div>
               </a>
             </div>
           </div>
@@ -88,15 +88,17 @@ export default function Projects() {
           </p>
 
         </div>
-        <div className={projectcss.link_space}>
-          <a className={projectcss.link} href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
+        <div className={projectcss.dynamic_link}>
+          <div className={projectcss.link_space}>
+            <div className={projectcss.link}>
+              <a href="https://self-check.netlify.app/" target="_blank" rel="noreferrer">
+                <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
 
-            <h5 className={projectcss.title_selfcheck}>Self-Check</h5>
-
-            <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
-          </a>
+                <div className={projectcss.icon_selfcheck}> <MdOutlineHealthAndSafety size={98} /> </div>
+              </a>
+            </div>
+          </div>
         </div>
-
       </div>
 
       <div className={projectcss.project_container}>
@@ -115,14 +117,19 @@ export default function Projects() {
           </p>
 
         </div>
-        <div className={projectcss.link_space}>
-          <a className={projectcss.link} href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
-            <h5 className={projectcss.title_oracle}>Oracle</h5>
+        <div className={projectcss.dynamic_link}>
+          <div className={projectcss.link_space}>
+            <div className={projectcss.link}>
 
-            <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
-          </a>
+              <a href="https://hammyhammer.github.io/Oracle-DnD_Spell_Reference/" target="_blank" rel="noreferrer">
+                <h5 className={projectcss.title_oracle}>Oracle</h5>
+
+                <div className={projectcss.icon_oracle}> <GiBoltSpellCast size={98} /> </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
