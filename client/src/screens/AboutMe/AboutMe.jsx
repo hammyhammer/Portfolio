@@ -1,6 +1,6 @@
 import aboutcss from "./AboutMe.module.css";
 import me from '../../assets/images/me.png'
-import resume from '../../assets/resume/jacobs_resume.pdf'
+// import resume from '../../assets/resume/jacobs_resume.pdf'
 import Skills from "../Skills/Skills";
 export default function AboutMe() {
   return (
