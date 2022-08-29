@@ -35,21 +35,6 @@
   color: white;
 }
 
-.intro_skills {
-  font-size: 2.5vw;
-  margin: 10px 10px;
-  font-family: "BhuTuka Expanded One";
-  font-weight: bold;
-}
-
-.skills {
-  margin: 10px 30px;
-  font-size: 3vw;
-  text-align: center;
-  font-family: "BhuTuka Expanded One";
-  font-weight: bold;
-}
-
 .resume {
   display: flex;
   justify-content: center;
@@ -80,15 +65,7 @@
     font-size: 3vw;
   }
 
-  .intro_skills {
-    font-size: 2.25vw;
-  }
-
   .left_side {
-    font-size: 2.25vw;
-  }
-
-  .skills {
     font-size: 2.25vw;
   }
 
@@ -130,22 +107,11 @@
     margin-top: 0px;
   }
 
-  .intro_skills {
-    border: 2px solid purple;
-    margin: 10px 250px;
-    font-size: 1.5vw;
-  }
-
   .left_side {
     margin: 0px 75px;
     font-size: 1.5vw;
     text-align: left;
     width: 50%
-  }
-
-  .skills {
-    font-size: 1.5vw;
-    margin: 10px 300px;
   }
 
   .resume {
@@ -169,15 +135,7 @@
     height: 400px;
   }
 
-  .intro_skills {
-    font-size: 1vw;
-  }
-
   .left_side {
-    font-size: 1.25vw;
-  }
-
-  .skills {
     font-size: 1.25vw;
   }
 

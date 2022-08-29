@@ -15,7 +15,7 @@ export default function AboutMe() {
             and appreciate the process of reaching a common goal.
           </p>
           <div className={aboutcss.header}>Available Skills</div>
-          <Skills className={aboutcss.skills_test} />
+          <Skills />
         </div>
         <img className={aboutcss.me} src={me} alt="Hampton" />
 
