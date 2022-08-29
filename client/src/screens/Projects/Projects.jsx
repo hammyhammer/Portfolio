@@ -46,7 +46,7 @@ export default function Projects() {
           <p className={projectcss.description}>A full stack video game interest application built with Mongoose, MongoDB, and Express on the backend, and with React on the frontend. Visitors can create an account and favorite and comment on games. Guests can view comments and games.</p>
           <p className={projectcss.button_space}>
             <a className={projectcss.button} href="https://github.com/Elvedin123/gametrest-frontend" target="_blank" rel="noreferrer">Frontend Repo</a>
-            <a className={projectcss.button} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
+            <a className={projectcss.button_two} href="https://github.com/Jacobdye99/Gameterest_BackEnd" target="_blank" rel="noreferrer">Backend Repo</a>
           </p>
           <p className={projectcss.skills}>
             Tech Stack: <br />

@@ -152,6 +152,16 @@
 
 }
 
+.button_two {
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+
+}
+
 /* Media query for ipad */
 @media only screen and (min-width:760px) {
   .header {
@@ -191,6 +201,11 @@
 
   .button {
     font-size: 3vw;
+  }
+
+  .button_two {
+    font-size: 3vw;
+
   }
 
 }
@@ -313,6 +328,12 @@
 
   .button {
     font-size: 1.5vw;
+  }
+
+  .button_two {
+    margin: 0px 30px;
+    font-size: 1.5vw;
+
   }
 
 }
