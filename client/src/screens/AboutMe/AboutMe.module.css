@@ -177,7 +177,7 @@
 @media only screen and (min-width:1500px) {
   .header {
     font-size: 2vw;
-    margin: 13px 300px 0px 350px;
+    /* margin: 13px 300px 0px 350px; */
 
   }
 
@@ -187,19 +187,19 @@
   }
 
   .intro_skills {
-    margin: 10px 250px;
+    /* margin: 10px 250px; */
     font-size: 1vw;
   }
 
   .left_side {
     font-size: 1.25vw;
-    margin: 10px 300px;
+    /* margin: 10px 300px; */
 
   }
 
   .skills {
     font-size: 1.25vw;
-    margin: 10px 300px;
+    /* margin: 10px 300px; */
   }
 
   .resume {
