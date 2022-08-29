@@ -31,8 +31,6 @@
   margin: 10px 30px;
   font-size: 3vw;
   text-align: center;
-  /* font-family: "BhuTuka Expanded One"; */
-
   font-weight: 600;
   color: white;
 }
@@ -114,8 +112,6 @@
   .header {
     font-size: 2vw;
     text-align: left;
-
-    /* margin: 0px; */
   }
 
   .aboutme_container {
@@ -139,17 +135,6 @@
     margin: 10px 250px;
     font-size: 1.5vw;
   }
-
-  /* .left_side {
-    font-size: 1.5vw;
-    width: 40%;
-    margin: 0px 75px;
-    text-align: left;
-    margin: 0px;
-    margin: 40px 0px;
-    margin-right: 100px;
-    border: 2px solid pink
-  } */
 
   .left_side {
     margin: 0px 75px;
@@ -177,8 +162,6 @@
 @media only screen and (min-width:1500px) {
   .header {
     font-size: 2vw;
-    /* margin: 13px 300px 0px 350px; */
-
   }
 
   .me {
@@ -187,19 +170,15 @@
   }
 
   .intro_skills {
-    /* margin: 10px 250px; */
     font-size: 1vw;
   }
 
   .left_side {
     font-size: 1.25vw;
-    /* margin: 10px 300px; */
-
   }
 
   .skills {
     font-size: 1.25vw;
-    /* margin: 10px 300px; */
   }
 
   .resume {

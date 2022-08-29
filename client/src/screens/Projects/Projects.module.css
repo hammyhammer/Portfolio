@@ -123,7 +123,6 @@
   margin-bottom: 3%;
   margin-right: 5%;
   margin-left: 5%;
-  /* height: 14px; */
 }
 
 
@@ -271,11 +270,6 @@
     text-decoration: none;
   }
 
-  /* 
-  .link {
-    border: 2px solid yellow;
-  } */
-
   .image {
     width: 50vw;
     height: 40vh;
@@ -294,12 +288,7 @@
 
   }
 
-
-
   .description {
-    /* width: 40%; */
-    /* margin-top: 10%;
-    margin-left: 10%; */
     font-size: 1.5vw;
     text-align: left;
     margin-bottom: 50px;
@@ -310,12 +299,10 @@
     width: 3vw;
   }
 
-
   .skills {
     margin: 10px 30px;
     text-align: left;
     font-size: 1.5vw;
-    /* margin-left: 10%; */
   }
 
   .button_space {
@@ -324,7 +311,6 @@
     margin-bottom: 50px;
   }
 
-
   .button {
     font-size: 1.5vw;
   }
@@ -332,10 +318,6 @@
 }
 
 @media only screen and (min-width:1500px) {
-  .link_space {
-    /* margin-left: 40%;
-    margin-right: 40%; */
-  }
 
   .header {
     font-size: 2.5vw;
@@ -362,11 +344,9 @@
     height: 40vh;
   }
 
-
   .description {
     font-size: 1.25vw;
   }
-
 
   .skills {
     font-size: 1.25vw;
