@@ -27,7 +27,7 @@
   border: 2px solid white;
 }
 
-.branding {
+.left_side {
   margin: 10px 30px;
   font-size: 3vw;
   text-align: center;
@@ -86,7 +86,7 @@
     font-size: 2.25vw;
   }
 
-  .branding {
+  .left_side {
     font-size: 2.25vw;
   }
 
@@ -121,6 +121,7 @@
   .aboutme_container {
     display: flex;
     justify-content: flex-end;
+    margin-top: 50px
   }
 
   .me {
@@ -139,15 +140,22 @@
     font-size: 1.5vw;
   }
 
-  .branding {
+  /* .left_side {
     font-size: 1.5vw;
-    /* width: 40%; */
+    width: 40%;
     margin: 0px 75px;
     text-align: left;
     margin: 0px;
     margin: 40px 0px;
     margin-right: 100px;
     border: 2px solid pink
+  } */
+
+  .left_side {
+    margin: 0px 75px;
+    font-size: 1.5vw;
+    text-align: left;
+    width: 50%
   }
 
   .skills {
@@ -183,7 +191,7 @@
     font-size: 1vw;
   }
 
-  .branding {
+  .left_side {
     font-size: 1.25vw;
     margin: 10px 300px;
 

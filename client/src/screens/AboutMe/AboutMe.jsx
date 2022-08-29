@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div className={aboutcss.whole} id="about-me">
       <div className={aboutcss.aboutme_container}>
-        <div className={aboutcss.branding}>
+        <div className={aboutcss.left_side}>
           <h5 className={aboutcss.header}>Hi, I'm Hampton Jacobs. Driven, creative software Developer</h5>
           <p className={aboutcss.intro}>
             I am a software developer located in the DC metro area. With a background in athletic development,
