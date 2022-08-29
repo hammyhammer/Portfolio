@@ -288,8 +288,8 @@
   }
 
   .project_title {
-    display: show;
-    font-size: 2.5vw;
+    display: flex;
+    font-size: 2vw;
     margin: 10px 30px;
 
   }

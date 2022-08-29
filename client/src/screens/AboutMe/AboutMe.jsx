@@ -5,7 +5,7 @@ import Skills from "../Skills/Skills";
 export default function AboutMe() {
   return (
     <div className={aboutcss.whole} id="about-me">
-      <div className={aboutcss.main}>
+      <div className={aboutcss.aboutme_container}>
         <div className={aboutcss.branding}>
           <h5 className={aboutcss.header}>Hi, I'm Hampton Jacobs. Driven, creative software Developer</h5>
           <p className={aboutcss.intro}>
@@ -15,7 +15,7 @@ export default function AboutMe() {
             and appreciate the process of reaching a common goal.
           </p>
           <div className={aboutcss.header}>Available Skills</div>
-          <Skills />
+          <Skills className={aboutcss.skills_test} />
         </div>
         <img className={aboutcss.me} src={me} alt="Hampton" />
 
