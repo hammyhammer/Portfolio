@@ -9,10 +9,7 @@ export default function AboutMe() {
         <div className={aboutcss.left_side}>
           <h5 className={aboutcss.header}>Hi, I'm Hampton Jacobs. Driven, creative software Developer</h5>
           <p className={aboutcss.intro}>
-            I am a software developer located in the DC metro area. With a background in athletic development,
-            I thrive in team based environments where cooperation and communication is
-            imperative. After coaching with young athletes, I have learned to love
-            and appreciate the process of reaching a common goal.
+            Through collaboration and initiative, I bring teammates together to problem solve and complete challenging tasks. My background in athletics and coaching gives me strengths in leadership, concise communication, adaptability, teamwork, and an empathetic mindset in team settings. When faced with a difficult problem, I see it as an opportunity for me to learn and to ask questions to expand my knowledge.
           </p>
           <div className={aboutcss.header}>Available Skills</div>
           <Skills />
