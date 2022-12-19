@@ -85,7 +85,7 @@
 }
 
 .link_space:hover {
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(198, 195, 195);
 }
 
 
@@ -313,7 +313,7 @@
 
   .icons {
     margin: 10px 30px;
-    width: 3vw;
+    width: 3.5vw;
   }
 
   .skills {
